@@ -1,0 +1,6 @@
+framework module GGQQSDKManager {
+  umbrella header "GGQQSDKManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

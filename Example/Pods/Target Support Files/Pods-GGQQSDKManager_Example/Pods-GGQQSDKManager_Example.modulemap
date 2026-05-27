@@ -1,0 +1,6 @@
+framework module Pods_GGQQSDKManager_Example {
+  umbrella header "Pods-GGQQSDKManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
