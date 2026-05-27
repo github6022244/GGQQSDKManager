@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'GGQQSDKManager_Example' do
+  pod 'GGQQSDKManager', :path => '../'
+
+  target 'GGQQSDKManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
