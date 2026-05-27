@@ -18,8 +18,12 @@
   "platforms": {
     "ios": "13.0"
   },
-  "source_files": "GGQQSDKManager/Classes/**/*.{h,m}",
+  "source_files": "GGQQSDKManager/Classes/*.{h,m}",
+  "exclude_files": "GGQQSDKManager/Classes/TencentOpenAPI.xcframework/**/*",
   "public_header_files": "GGQQSDKManager/Classes/*.h",
+  "resources": [
+    "GGQQSDKManager/Assets/**/*.png"
+  ],
   "vendored_frameworks": "GGQQSDKManager/Classes/TencentOpenAPI.xcframework",
   "frameworks": [
     "Security",

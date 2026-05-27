@@ -7,117 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20F656A093C19AD1CE4066451D7245A1 /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */; };
+		237F40C19AC0F967438311B2747C8980 /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */; };
 		2A27B2E2291320BC81967BB2B8F2F122 /* Pods-GGQQSDKManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		313301CAD85F37034A575115B17D1B61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
-		31B42C39D850E321684703C4B383F5D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
-		3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3BB93CEC7F2AD7824C8068B8E23D9C2B /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */; };
+		38A40A5948DE0F9A8A7B539F0BDA0B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
+		3E5F82E088261DC56C02BE2A60A83389 /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F3FA05B21B08F9DA1CDC0573F66FEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		683EDAE4F1294F60CB506B90F93440BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
-		84ED9DA11130E85ADE56C97193236A3C /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F66018BA00876F5DF709AE6590A9DA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
+		54D7C8C62FEDF2EFDF4F1E0B8DF2A065 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
+		698BD1477E5A57B3FF47C95DE44B6C35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
+		745E9FA6024919BDAA970F0CBA4EECEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
 		857716D8647E1A094F657F318FF721BD /* Pods-GGQQSDKManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */; };
-		A95D383C9B3BBDF714DC0BBBFD2C87D8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
+		A260F3D2B9ECE0F16559BBF2966DB913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
+		A982077FFFA15DBC0FCD26EA2FCFE542 /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */; };
+		BD8DD1FB569D5051C9B5812075F7EAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
 		BDD753DE4C89DAEF55B46C5CC430B201 /* Pods-GGQQSDKManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE45CB92E418C3F3D4AD255D57FC1170 /* Pods-GGQQSDKManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */; };
-		C51BF097104ED32CACBD1A526C64BA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		D809BA547ADA18A1240CB8FF9ABE2C30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
-		DBB0B01FB7F0918E0EFDA3A35384CA0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
-		DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E84430E71E981BF1916D07D9A7BD997F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		F87AE95074F2E6E5AF94002BBBDA8259 /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E95CEEE59FFA512F740F2604D44B6083 /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		38F4EF7DD9F6CA496113CE555514660E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 727605D77659C3F5239315974E983937;
-			remoteInfo = "Pods-GGQQSDKManager_Example";
-		};
-		A01175B136A0DD8FDF205F1760FC50BA /* PBXContainerItemProxy */ = {
+		1A3BD90BACBB0FB19482712C32E0FC97 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1F7C2C4AEEEF01239E692A21780BD14D;
 			remoteInfo = GGQQSDKManager;
 		};
+		99CD887B785BAE1ED5CA84E460F23BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727605D77659C3F5239315974E983937;
+			remoteInfo = "Pods-GGQQSDKManager_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BDBBF83A9AAA58959392795423CBC7 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
 		03B7EFBC35CDDDCC369DB05C5495DA11 /* Pods-GGQQSDKManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-Info.plist"; sourceTree = "<group>"; };
+		05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
 		0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		09DBD04B2A9A5CBE22964E2536984499 /* GGQQSDKManager-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GGQQSDKManager-xcframeworks.sh"; sourceTree = "<group>"; };
 		0C8B4CAD4EEE726701A8504F9DA21F8D /* Pods-GGQQSDKManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0DF37F25B825AC5710FD01AB9D50C13A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
 		22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		2CD0E32817CF4144DEFDCA9540DB5787 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
+		260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
 		30888191B21B3B1ABBE0484A69FC9B79 /* Pods-GGQQSDKManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		43BC2B25D6AB5BC1F9DC19F1E1FC94A8 /* SDKDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKDef.h; sourceTree = "<group>"; };
 		4DA89186F9DFB2B6D6AADD64793EBC16 /* Pods-GGQQSDKManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		54C7E514F2DD5FA47F694BA7BF8B8890 /* TencentOpenAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TencentOpenAPI.xcframework; path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework; sourceTree = "<group>"; };
+		56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
 		57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		5A72B0523648ED324462CACDFB202C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
+		5B741503D114453602858A30079B8A94 /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
 		6BA1047F1A046A1E068FB52784D36958 /* GGQQSDKManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGQQSDKManager; path = GGQQSDKManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
 		7042C377AB5084A1E5E5477F1ADF4945 /* Pods-GGQQSDKManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7693842CB43DB14D213BDB1AD26DA555 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		785862A4BA6436EACD865076D9F253F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7B83881F155D00D6CA65B44ABB3C2ECF /* Pods-GGQQSDKManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7E3E2131C51F1FBA7E64AF6F263003AF /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82FE9ADE3716D9FEE48FD8B30DC1151B /* Pods-GGQQSDKManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Tests"; path = Pods_GGQQSDKManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
+		8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
+		8CC145D31514A68B2AFCDE4B3ADCC2B6 /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
 		8FF4EB386B88A54D6E0A1E8B89902B15 /* Pods-GGQQSDKManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9186BD573FFA03689C6351EA8036618B /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
 		92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKDef.h; sourceTree = "<group>"; };
 		93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
 		9618167F284AD7774082972F49B70788 /* Pods-GGQQSDKManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Example"; path = Pods_GGQQSDKManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		9EB186A81AF82160C6005DC00E2D8492 /* TencentOpenAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TencentOpenAPI.xcframework; path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework; sourceTree = "<group>"; };
 		A0F5367479F833C5E4667ADB0A799DA2 /* Pods-GGQQSDKManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
 		A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Example-dummy.m"; sourceTree = "<group>"; };
 		A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
-		BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
-		C56FCE93CDD157F839FA050D4581F229 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		B108579DAD5F616657C51BF524B34367 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
 		CE19EB8E29E08AB567F1A3EBD5040C04 /* Pods-GGQQSDKManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGQQSDKManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D3FD63A49FECC8873F68F5EDA48999CB /* Pods-GGQQSDKManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5D40C12F3466C8CF47E39A31160F587 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D975B64C1877CC1D0000ACBDC21338A6 /* Pods-GGQQSDKManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E027A7D8A2980052297B6279FF1DA4B5 /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
-		E7DB2C294E4F74E0246F0E38E74F129C /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
+		DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
+		E9BEFE31C4F4FB74A1D18C5A3B874503 /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EBBF2EB1EE9E090CAF2BA6A46360630C /* Pods-GGQQSDKManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Tests.modulemap"; sourceTree = "<group>"; };
 		ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
 		EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F880AF6458078428CD50CC15C570E2FF /* GGQQSDKManager-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GGQQSDKManager-xcframeworks.sh"; sourceTree = "<group>"; };
 		FE109AB2E2CEF6311493759781227EE8 /* Pods-GGQQSDKManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A756CFC8F1F30D7226105A7DB48E91B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31B42C39D850E321684703C4B383F5D3 /* CoreGraphics.framework in Frameworks */,
-				683EDAE4F1294F60CB506B90F93440BC /* CoreTelephony.framework in Frameworks */,
-				C51BF097104ED32CACBD1A526C64BA63 /* Foundation.framework in Frameworks */,
-				D809BA547ADA18A1240CB8FF9ABE2C30 /* Security.framework in Frameworks */,
-				313301CAD85F37034A575115B17D1B61 /* SystemConfiguration.framework in Frameworks */,
-				DBB0B01FB7F0918E0EFDA3A35384CA0C /* UIKit.framework in Frameworks */,
-				A95D383C9B3BBDF714DC0BBBFD2C87D8 /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		902F9B9BEFA64AE05E43C6EA2DFDC13E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,51 +105,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AABAADC52F64E8B53B3C30AB10E67BFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698BD1477E5A57B3FF47C95DE44B6C35 /* CoreGraphics.framework in Frameworks */,
+				43F66018BA00876F5DF709AE6590A9DA /* CoreTelephony.framework in Frameworks */,
+				BD8DD1FB569D5051C9B5812075F7EAA9 /* Foundation.framework in Frameworks */,
+				745E9FA6024919BDAA970F0CBA4EECEF /* Security.framework in Frameworks */,
+				38A40A5948DE0F9A8A7B539F0BDA0B4B /* SystemConfiguration.framework in Frameworks */,
+				A260F3D2B9ECE0F16559BBF2966DB913 /* UIKit.framework in Frameworks */,
+				54D7C8C62FEDF2EFDF4F1E0B8DF2A065 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C308F00D7A4FBB477D3C0880DBDC6C1 /* Headers */ = {
+		03DA001298C2365E725FF5B02EC322D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				00BDBBF83A9AAA58959392795423CBC7 /* QQApiInterface.h */,
-				7693842CB43DB14D213BDB1AD26DA555 /* QQApiInterfaceObject.h */,
-				43BC2B25D6AB5BC1F9DC19F1E1FC94A8 /* SDKDef.h */,
-				C56FCE93CDD157F839FA050D4581F229 /* TencentOAuth.h */,
-				E027A7D8A2980052297B6279FF1DA4B5 /* TencentOpenApiUmbrellaHeader.h */,
+				8CC145D31514A68B2AFCDE4B3ADCC2B6 /* GGQQSDKManager.modulemap */,
+				8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */,
+				5B741503D114453602858A30079B8A94 /* GGQQSDKManager-Info.plist */,
+				B108579DAD5F616657C51BF524B34367 /* GGQQSDKManager-prefix.pch */,
+				DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */,
+				F880AF6458078428CD50CC15C570E2FF /* GGQQSDKManager-xcframeworks.sh */,
+				56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */,
+				260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */,
 			);
-			name = Headers;
-			path = Headers;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGQQSDKManager";
 			sourceTree = "<group>";
 		};
-		36CC13347B0677DC987768E43B6D5CD6 /* GGQQSDKManager */ = {
+		1298BFEB15C90558C828ABC9189919C6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */,
-				BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */,
-				6E80C9DFB3EAC04F942413064F920AA8 /* Frameworks */,
-				995FACCE575757A8891E7C7C07297F76 /* Pod */,
-				8680790514A5FD738B3BCB055F96A17A /* Support Files */,
-				ECC8F4DCFC4598209DEF625C812FA518 /* TencentOpenAPI.xcframework */,
+				C96E8F45BE47EAA65777668D3C7B4C7B /* GGQQSDKManager */,
 			);
-			name = GGQQSDKManager;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4ABEB2DED6405BC8E357CB737291D07C /* ios-arm64_x86_64-simulator */ = {
+		73EEA2BDDA1CB73ED51B41CB194F7A4A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B1A0CC01E2D5A1E68FA851FE518F8407 /* TencentOpenAPI.framework */,
+				E9BEFE31C4F4FB74A1D18C5A3B874503 /* GGQQSDKManager.podspec */,
+				D5D40C12F3466C8CF47E39A31160F587 /* LICENSE */,
+				785862A4BA6436EACD865076D9F253F8 /* README.md */,
 			);
-			name = "ios-arm64_x86_64-simulator";
-			path = "ios-arm64_x86_64-simulator";
-			sourceTree = "<group>";
-		};
-		6E80C9DFB3EAC04F942413064F920AA8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				54C7E514F2DD5FA47F694BA7BF8B8890 /* TencentOpenAPI.xcframework */,
-			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
@@ -203,39 +178,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8680790514A5FD738B3BCB055F96A17A /* Support Files */ = {
+		984F510EB9A04277DB896F6F8ADB068D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E7DB2C294E4F74E0246F0E38E74F129C /* GGQQSDKManager.modulemap */,
-				6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */,
-				9186BD573FFA03689C6351EA8036618B /* GGQQSDKManager-Info.plist */,
-				2CD0E32817CF4144DEFDCA9540DB5787 /* GGQQSDKManager-prefix.pch */,
-				EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */,
-				09DBD04B2A9A5CBE22964E2536984499 /* GGQQSDKManager-xcframeworks.sh */,
-				957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */,
-				8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */,
+				9EB186A81AF82160C6005DC00E2D8492 /* TencentOpenAPI.xcframework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGQQSDKManager";
-			sourceTree = "<group>";
-		};
-		88BC1AE29B331185C37E287DA7A3F735 /* TencentOpenAPI.framework */ = {
-			isa = PBXGroup;
-			children = (
-				1C308F00D7A4FBB477D3C0880DBDC6C1 /* Headers */,
-			);
-			name = TencentOpenAPI.framework;
-			path = TencentOpenAPI.framework;
-			sourceTree = "<group>";
-		};
-		995FACCE575757A8891E7C7C07297F76 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7E3E2131C51F1FBA7E64AF6F263003AF /* GGQQSDKManager.podspec */,
-				5A72B0523648ED324462CACDFB202C9A /* LICENSE */,
-				0DF37F25B825AC5710FD01AB9D50C13A /* README.md */,
-			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */ = {
@@ -247,42 +195,24 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B1A0CC01E2D5A1E68FA851FE518F8407 /* TencentOpenAPI.framework */ = {
+		C96E8F45BE47EAA65777668D3C7B4C7B /* GGQQSDKManager */ = {
 			isa = PBXGroup;
 			children = (
-				C67344F5D9BE7940FB42BDF3147D7A72 /* Headers */,
+				021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */,
+				05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */,
+				984F510EB9A04277DB896F6F8ADB068D /* Frameworks */,
+				73EEA2BDDA1CB73ED51B41CB194F7A4A /* Pod */,
+				03DA001298C2365E725FF5B02EC322D7 /* Support Files */,
 			);
-			name = TencentOpenAPI.framework;
-			path = TencentOpenAPI.framework;
-			sourceTree = "<group>";
-		};
-		B8B79CAC54802BB7E4ACDA259E81EFE4 /* ios-arm64 */ = {
-			isa = PBXGroup;
-			children = (
-				88BC1AE29B331185C37E287DA7A3F735 /* TencentOpenAPI.framework */,
-			);
-			name = "ios-arm64";
-			path = "ios-arm64";
-			sourceTree = "<group>";
-		};
-		C67344F5D9BE7940FB42BDF3147D7A72 /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */,
-				9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */,
-				9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */,
-				A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */,
-				B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */,
-			);
-			name = Headers;
-			path = Headers;
+			name = GGQQSDKManager;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F093BA879FB00D20F7B3363CDDF8C571 /* Development Pods */,
+				1298BFEB15C90558C828ABC9189919C6 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				D32C48B5C7F5EF2020FB04E3A9038331 /* Products */,
 				9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */,
@@ -313,24 +243,6 @@
 			);
 			name = "Pods-GGQQSDKManager_Tests";
 			path = "Target Support Files/Pods-GGQQSDKManager_Tests";
-			sourceTree = "<group>";
-		};
-		ECC8F4DCFC4598209DEF625C812FA518 /* TencentOpenAPI.xcframework */ = {
-			isa = PBXGroup;
-			children = (
-				B8B79CAC54802BB7E4ACDA259E81EFE4 /* ios-arm64 */,
-				4ABEB2DED6405BC8E357CB737291D07C /* ios-arm64_x86_64-simulator */,
-			);
-			name = TencentOpenAPI.xcframework;
-			path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework;
-			sourceTree = "<group>";
-		};
-		F093BA879FB00D20F7B3363CDDF8C571 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				36CC13347B0677DC987768E43B6D5CD6 /* GGQQSDKManager */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F282F7ADF57F8BA0FB038DD96596C59D /* Pods-GGQQSDKManager_Example */ = {
@@ -369,22 +281,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E58CE11333963F53E8F6F625AEA1D99C /* Headers */ = {
+		4E87A35197FC07C870CE3CDAA697A5C8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84ED9DA11130E85ADE56C97193236A3C /* GGQQSDKManager.h in Headers */,
-				F87AE95074F2E6E5AF94002BBBDA8259 /* GGQQSDKManager-umbrella.h in Headers */,
-				FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */,
-				FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */,
-				3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */,
-				3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */,
-				3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */,
-				3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */,
-				DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */,
-				DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */,
-				F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */,
-				F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */,
+				E95CEEE59FFA512F740F2604D44B6083 /* GGQQSDKManager.h in Headers */,
+				3E5F82E088261DC56C02BE2A60A83389 /* GGQQSDKManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,13 +295,13 @@
 /* Begin PBXNativeTarget section */
 		1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E42DF1449569BD1028B17D28F145F046 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
+			buildConfigurationList = 3B7CD861A1B08ADCFEF811BE3ADDE462 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
 			buildPhases = (
-				E58CE11333963F53E8F6F625AEA1D99C /* Headers */,
-				764BC3BA2E19071175BA958B1ADAE94B /* [CP] Copy XCFrameworks */,
-				A0EAA694C558189536D7F2B232A5C9FB /* Sources */,
-				3A756CFC8F1F30D7226105A7DB48E91B /* Frameworks */,
-				175C5E805564C34DE633DA905432905D /* Resources */,
+				4E87A35197FC07C870CE3CDAA697A5C8 /* Headers */,
+				889000E0C5D1FDCFD87B83E2CC79A6B5 /* [CP] Copy XCFrameworks */,
+				3E5DC7A1D1DD502275AAF3227E2BAFF4 /* Sources */,
+				AABAADC52F64E8B53B3C30AB10E67BFE /* Frameworks */,
+				4035F351B1A0339A090AA89B0A8A6D0E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -422,7 +324,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				352F7F64C3CE65F62334639D340D91EB /* PBXTargetDependency */,
+				237E82D6D13AD74E3EB22F5704B475A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Example";
 			productName = Pods_GGQQSDKManager_Example;
@@ -441,7 +343,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				40611FE4783D334AFAC2BAC01A58B7AC /* PBXTargetDependency */,
+				D8EAECD7F0E0DF62398316C7C3315D00 /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Tests";
 			productName = Pods_GGQQSDKManager_Tests;
@@ -480,7 +382,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		175C5E805564C34DE633DA905432905D /* Resources */ = {
+		4035F351B1A0339A090AA89B0A8A6D0E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -504,7 +406,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		764BC3BA2E19071175BA958B1ADAE94B /* [CP] Copy XCFrameworks */ = {
+		889000E0C5D1FDCFD87B83E2CC79A6B5 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -533,12 +435,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0EAA694C558189536D7F2B232A5C9FB /* Sources */ = {
+		3E5DC7A1D1DD502275AAF3227E2BAFF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F656A093C19AD1CE4066451D7245A1 /* GGQQSDKManager.m in Sources */,
-				3BB93CEC7F2AD7824C8068B8E23D9C2B /* GGQQSDKManager-dummy.m in Sources */,
+				237F40C19AC0F967438311B2747C8980 /* GGQQSDKManager.m in Sources */,
+				A982077FFFA15DBC0FCD26EA2FCFE542 /* GGQQSDKManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,21 +455,57 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		352F7F64C3CE65F62334639D340D91EB /* PBXTargetDependency */ = {
+		237E82D6D13AD74E3EB22F5704B475A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGQQSDKManager;
 			target = 1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */;
-			targetProxy = A01175B136A0DD8FDF205F1760FC50BA /* PBXContainerItemProxy */;
+			targetProxy = 1A3BD90BACBB0FB19482712C32E0FC97 /* PBXContainerItemProxy */;
 		};
-		40611FE4783D334AFAC2BAC01A58B7AC /* PBXTargetDependency */ = {
+		D8EAECD7F0E0DF62398316C7C3315D00 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GGQQSDKManager_Example";
 			target = 727605D77659C3F5239315974E983937 /* Pods-GGQQSDKManager_Example */;
-			targetProxy = 38F4EF7DD9F6CA496113CE555514660E /* PBXContainerItemProxy */;
+			targetProxy = 99CD887B785BAE1ED5CA84E460F23BD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		13FFDBCBB61578416E6709D7ACC8763C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GGQQSDKManager;
+				PRODUCT_NAME = GGQQSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		3243AA1134795A3DB5EACEB9AEA4A0FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30888191B21B3B1ABBE0484A69FC9B79 /* Pods-GGQQSDKManager_Example.debug.xcconfig */;
@@ -603,6 +541,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5882844FF23810834DC3430379198637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GGQQSDKManager;
+				PRODUCT_NAME = GGQQSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7FD801E81B561C408660B190ABBE7961 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -706,43 +681,6 @@
 			};
 			name = Debug;
 		};
-		964A6B2A7C4E9DD1B8586D791ECB1BD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
-				PRODUCT_MODULE_NAME = GGQQSDKManager;
-				PRODUCT_NAME = GGQQSDKManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -842,42 +780,6 @@
 			};
 			name = Release;
 		};
-		E28EF8CEA9819EFBD903E5C79D67AD0A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
-				PRODUCT_MODULE_NAME = GGQQSDKManager;
-				PRODUCT_NAME = GGQQSDKManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EB7D16980269AE3EB235BD014FE04DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C8B4CAD4EEE726701A8504F9DA21F8D /* Pods-GGQQSDKManager_Example.release.xcconfig */;
@@ -918,6 +820,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3B7CD861A1B08ADCFEF811BE3ADDE462 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13FFDBCBB61578416E6709D7ACC8763C /* Debug */,
+				5882844FF23810834DC3430379198637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -932,15 +843,6 @@
 			buildConfigurations = (
 				3243AA1134795A3DB5EACEB9AEA4A0FF /* Debug */,
 				EB7D16980269AE3EB235BD014FE04DD7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E42DF1449569BD1028B17D28F145F046 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E28EF8CEA9819EFBD903E5C79D67AD0A /* Debug */,
-				964A6B2A7C4E9DD1B8586D791ECB1BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

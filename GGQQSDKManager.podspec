@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'GGQQSDKManager/Classes/**/*.{h,m}'
+  s.source_files = 'GGQQSDKManager/Classes/*.{h,m}'
+  
+  s.exclude_files = 'GGQQSDKManager/Classes/TencentOpenAPI.xcframework/**/*'
   
   s.public_header_files = 'GGQQSDKManager/Classes/*.h'
   
