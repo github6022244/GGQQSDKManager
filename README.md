@@ -1,0 +1,2 @@
+# GGQQSDKManager
+封装QQSDK
