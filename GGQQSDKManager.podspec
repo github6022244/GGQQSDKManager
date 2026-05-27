@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A reusable pod library for QQ SDK'
 
   s.description      = <<-DESC
-封装QQSDK，提供登录、分享等功能的便捷接口。基于腾讯官方SDK 3.6.20版本。
+封装QQSDK，提供登录、分享等功能的便捷接口。
                        DESC
 
   s.homepage         = 'https://github.com/github6022244/GGQQSDKManager.git'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   
   s.public_header_files = 'GGQQSDKManager/Classes/*.h'
   
-  s.resources = ['GGQQSDKManager/Assets/**/*.png', 'GGQQSDKManager/Assets/**/*.html', 'GGQQSDKManager/Assets/**/*.bundle']
+  s.resources = ['GGQQSDKManager/Assets/**/*.png']
 
   s.vendored_frameworks = 'GGQQSDKManager/Classes/TencentOpenAPI.xcframework'
 
@@ -28,13 +28,13 @@ Pod::Spec.new do |s|
 
   s.xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC -all_load',
-    'ENABLE_BITCODE' => 'NO',
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
+    'ENABLE_BITCODE' => 'NO'
   }
-  
+
   s.pod_target_xcconfig = {
     'CODE_SIGNING_ALLOWED' => 'NO',
-    'CODE_SIGNING_REQUIRED' => 'NO'
+    'CODE_SIGNING_REQUIRED' => 'NO',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'  # 移到这里
   }
 
   s.requires_arc = true

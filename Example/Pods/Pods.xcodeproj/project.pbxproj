@@ -7,76 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C67869AA48654F6577B8FCC6287D4B3 /* webview_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B62E49EED5D74F5A9422CEB700055A /* webview_backward.png */; };
-		1170D533EC794997051DEE642B1B151B /* webview_toolbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1938BEB3C6C1BC1A15DBEADF528C5B0E /* webview_toolbg.png */; };
-		1B8C74F4C144276D48ACCD13D8529D60 /* webview_for.png in Resources */ = {isa = PBXBuildFile; fileRef = 42895EDDDA2BC4954053CEDE5AB6A33B /* webview_for.png */; };
-		1BAC4A450DA45E09CF0DD718F309477C /* share_safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D7B167595F90DBC3571606CA97401C /* share_safari@2x.png */; };
-		1C36A233363A182B0CCD79FF5723C72F /* btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = F90475026325BFF80442739299348E83 /* btn_cancel.png */; };
-		1EC2A505121B79C2A01D1A7AD9518B8D /* share_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA55CDCF8594B7BF8F6B32165B7F0B8 /* share_weixin.png */; };
-		206C58A0EFD36ADCC513E1603E869219 /* local.html in Resources */ = {isa = PBXBuildFile; fileRef = 3056B71DFB3D6821BBA280CB42E4B6CB /* local.html */; };
-		23ABD18E826A0FC206F803EDA9381B50 /* webview_backtogame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0038E31FC56E2434F8419CFDFC5634BF /* webview_backtogame@2x.png */; };
-		261E1B793FA563521EE1B92B689A3914 /* share_pengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F31E9A5AB4C6015B462CA87D89E7DC86 /* share_pengyouquan@2x.png */; };
-		26356B662475507651D6946F4E1B1A11 /* webview_toolbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E27441830AEB4887F515B1922E32E7 /* webview_toolbg@2x.png */; };
+		20F656A093C19AD1CE4066451D7245A1 /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */; };
 		2A27B2E2291320BC81967BB2B8F2F122 /* Pods-GGQQSDKManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A6E86C2B80E206B7DF2AFDA1F73E73C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
-		2E3CC085766EC4C935A82BDCD15C8EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
-		2E5A72100E5CD95905F9142923837AA4 /* webview_recommand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0ADAEB58BD25AF952850B9C3FC74C08 /* webview_recommand@2x.png */; };
-		2E9A60B9A104EBCFC4E32458C240D406 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
-		342FE147CD508303F3DCB886D19F7CEF /* TencentOpenApiUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 797A5517C2778EDD464369EAF7FCF75A /* TencentOpenApiUmbrellaHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		35500D166B32B67089B8F5FB2D4D2D6D /* qqicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AFEF86F98934D5C7AD32EB0B6B1B809A /* qqicon.png */; };
-		396706FE6E1CA34572C439F11F3D1B42 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
-		3ED87451EA19C335E88B5CF2DFBFAD4E /* webview_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 005E45B39B1BFA26DB1A325D1E96C06D /* webview_back.png */; };
+		3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		313301CAD85F37034A575115B17D1B61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
+		31B42C39D850E321684703C4B383F5D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
+		3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BB93CEC7F2AD7824C8068B8E23D9C2B /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */; };
 		3F3FA05B21B08F9DA1CDC0573F66FEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		45F374060351A9BB322FBDEB05045DB4 /* webview_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6990891768F67DC15EA36C67770AB40A /* webview_forward@2x.png */; };
-		498157712D4CD4F864FE7D683773ED1F /* share_qzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 045EBBC23D155632B9B6CDEAF12B2D87 /* share_qzone.png */; };
-		49BB1B4812D136C900887918EE37CBE7 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 557A17844693D32D1E3132E9A435508E /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4C56BFDC0589E74313271C03642F385F /* webview_backtogame.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE5A36C14F62C440F940A8FC1CEFB0C /* webview_backtogame.png */; };
-		5017C9CCFA4A00C200C4A1DFADE368B9 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 09BCE2A5924F6D6984BB4C14B0B33BD2 /* success.png */; };
-		544979CDB1D43F50DEC2D1BB163C819A /* share_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBD895A5F7CD6FE807674625C4AC311F /* share_weixin@2x.png */; };
-		5476BBF0766A0A738416E2989F259ED0 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B1F95BFED8D485EB45104E4316C8D2 /* error.png */; };
-		595E8F101A714288215CBD14F3AED76B /* share_pengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E8BDDF0330839AEED857EAE16D195E /* share_pengyouquan.png */; };
-		5B01E8266C6979EF7DE2FB96A0554404 /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EFD0328703959BE77F9E8996F7965AE /* GGQQSDKManager-dummy.m */; };
-		5CCC4D92A2AE1DAB4E688886555B784D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
-		5DC2CBD77AAA1EA55C159BF13D06B3F5 /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A771DC0842E210DB57DD48395F5567D /* GGQQSDKManager.m */; };
-		6546711EF2CC28665A2E232BA96564F4 /* share_safari.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F04554C78796896CD5044DFD889C96 /* share_safari.png */; };
-		6576E1F11FD8193DF5B3EDE5C9AB6257 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 11286DB8DD13C717B776CFD3E6184750 /* TencentOpenApi_IOS_Bundle.bundle */; };
-		744FC3C38F65DB8AFF654D979C7FA613 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A7AC359FA35D68AE3C1C77609750F1D /* refresh@2x.png */; };
-		7DDB3854F03C4DE5CE31568BC75CFE28 /* webview_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E801B53A90997C0B352566477645F5 /* webview_stop@2x.png */; };
-		80E3D3119485109A1B89976417ED61AA /* webview_for@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA494EB9B775F77E9A68D83A6D24FE2E /* webview_for@2x.png */; };
+		683EDAE4F1294F60CB506B90F93440BC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
+		84ED9DA11130E85ADE56C97193236A3C /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		857716D8647E1A094F657F318FF721BD /* Pods-GGQQSDKManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */; };
-		85C2C642708F2992232B9F8A5F6A143B /* webview_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 292A83C93EC854EE29CD20E604DFDBB2 /* webview_back@2x.png */; };
-		8AD406E17B5174C3439DF2F7F4689ECA /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AAB81C9292D0DB2D58FCDBD3AC89A5 /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EBA5B1E75A642A3F2F66B1766937CFF /* webview_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = C4733DEA27A2AEF0F89E2BAFBCAF7799 /* webview_stop.png */; };
-		A9C085B5296B8A9995F318C14CA6D9C3 /* share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC861D1609AC8F41BFB2E6110E8D6B1 /* share_qq@2x.png */; };
-		B359B8DFCEFBCF8E5358206B92E781FF /* share_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 38BD1B08F51CE8FDCC9DD60C2D613DE8 /* share_qq.png */; };
-		B473F537730CF626A7495171B6601B61 /* webview_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EEB2E074A10B323A1C972BB86A8585D /* webview_forward.png */; };
+		A95D383C9B3BBDF714DC0BBBFD2C87D8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
 		BDD753DE4C89DAEF55B46C5CC430B201 /* Pods-GGQQSDKManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE45CB92E418C3F3D4AD255D57FC1170 /* Pods-GGQQSDKManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */; };
-		BF17123E043AEFCB3F8FFACE9A5C37E6 /* webview_more.png in Resources */ = {isa = PBXBuildFile; fileRef = 13394E7471C630516E87E53E2BD41670 /* webview_more.png */; };
-		C4DFEA0178B56A6DA7F37C613E9B2402 /* btn_cancel_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 406E12A7E912454F25A5D8BFA12B6FE6 /* btn_cancel_hover.png */; };
-		C95678DD7FD0A896BC134481E2AEEA70 /* SDKDef.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D4CE1B587BF8BA78B0C4A5E5030B12 /* SDKDef.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CEAE25E5F3F9585023A286B23D0CA5A1 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 71696805005EBD26CB3CF333661A9032 /* refresh.png */; };
-		D1BAF390D2ED85A30D03AE044288C7B6 /* webview_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7CDD1F30C159ED032709F275F78CD4 /* webview_more@2x.png */; };
-		DD6B464B6D7A394545489733729B0446 /* webview_recommand.png in Resources */ = {isa = PBXBuildFile; fileRef = A3871ACA957B4514DB35F69382492E3F /* webview_recommand.png */; };
-		DE3018370BD4BB464E095DABE281D2D4 /* share_qzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F44AD5F675AB38304AD100AEA4BF40F /* share_qzone@2x.png */; };
-		E01ACD78EC871B4A3BCEEFDD0C04AB42 /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A6370A601428B379CB30CCED4F6A966F /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E496D22F67280D1E28F589A93204E3B3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
+		C51BF097104ED32CACBD1A526C64BA63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
+		D809BA547ADA18A1240CB8FF9ABE2C30 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
+		DBB0B01FB7F0918E0EFDA3A35384CA0C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
+		DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E84430E71E981BF1916D07D9A7BD997F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		EC7E667228F664D368CFB8143300ED54 /* webview_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 140CC5FE6C0F3FF1134033F9C978809F /* webview_backward@2x.png */; };
-		F27FFE1CF1FCB61AE3B73EBAC75BC703 /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = BC51E11CF7E82D8ABF71B907D59D3173 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FB0E2B2E810761D6804A546BEA4C30A3 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 806D5DDF054B5CE7B79D39D567956C83 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FDD213E8BA06C6832431B134BDC91778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
+		F87AE95074F2E6E5AF94002BBBDA8259 /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99F1FC13C2C0276219B98FBBA93762D6 /* PBXContainerItemProxy */ = {
+		38F4EF7DD9F6CA496113CE555514660E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 727605D77659C3F5239315974E983937;
 			remoteInfo = "Pods-GGQQSDKManager_Example";
 		};
-		B3E131B014AA758510A07025462676EC /* PBXContainerItemProxy */ = {
+		A01175B136A0DD8FDF205F1760FC50BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -86,103 +49,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0038E31FC56E2434F8419CFDFC5634BF /* webview_backtogame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_backtogame@2x.png"; sourceTree = "<group>"; };
-		005E45B39B1BFA26DB1A325D1E96C06D /* webview_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_back.png; sourceTree = "<group>"; };
-		01B62E49EED5D74F5A9422CEB700055A /* webview_backward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_backward.png; sourceTree = "<group>"; };
-		02E801B53A90997C0B352566477645F5 /* webview_stop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_stop@2x.png"; sourceTree = "<group>"; };
+		00BDBBF83A9AAA58959392795423CBC7 /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
 		03B7EFBC35CDDDCC369DB05C5495DA11 /* Pods-GGQQSDKManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-Info.plist"; sourceTree = "<group>"; };
-		045EBBC23D155632B9B6CDEAF12B2D87 /* share_qzone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_qzone.png; sourceTree = "<group>"; };
 		0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		09BCE2A5924F6D6984BB4C14B0B33BD2 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		09DBD04B2A9A5CBE22964E2536984499 /* GGQQSDKManager-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GGQQSDKManager-xcframeworks.sh"; sourceTree = "<group>"; };
 		0C8B4CAD4EEE726701A8504F9DA21F8D /* Pods-GGQQSDKManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		10E66062D664275707A3688ADAF51F1D /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		11286DB8DD13C717B776CFD3E6184750 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = GGQQSDKManager/Assets/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
-		13394E7471C630516E87E53E2BD41670 /* webview_more.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_more.png; sourceTree = "<group>"; };
-		13E27441830AEB4887F515B1922E32E7 /* webview_toolbg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_toolbg@2x.png"; sourceTree = "<group>"; };
-		140CC5FE6C0F3FF1134033F9C978809F /* webview_backward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_backward@2x.png"; sourceTree = "<group>"; };
-		1938BEB3C6C1BC1A15DBEADF528C5B0E /* webview_toolbg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_toolbg.png; sourceTree = "<group>"; };
-		19E8BDDF0330839AEED857EAE16D195E /* share_pengyouquan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_pengyouquan.png; sourceTree = "<group>"; };
-		1A7AC359FA35D68AE3C1C77609750F1D /* refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
-		1EFD0328703959BE77F9E8996F7965AE /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
+		0DF37F25B825AC5710FD01AB9D50C13A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
 		22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		292A83C93EC854EE29CD20E604DFDBB2 /* webview_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_back@2x.png"; sourceTree = "<group>"; };
-		3056B71DFB3D6821BBA280CB42E4B6CB /* local.html */ = {isa = PBXFileReference; includeInIndex = 1; path = local.html; sourceTree = "<group>"; };
+		2CD0E32817CF4144DEFDCA9540DB5787 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
 		30888191B21B3B1ABBE0484A69FC9B79 /* Pods-GGQQSDKManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		38BD1B08F51CE8FDCC9DD60C2D613DE8 /* share_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_qq.png; sourceTree = "<group>"; };
 		3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3EC861D1609AC8F41BFB2E6110E8D6B1 /* share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_qq@2x.png"; sourceTree = "<group>"; };
-		406E12A7E912454F25A5D8BFA12B6FE6 /* btn_cancel_hover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = btn_cancel_hover.png; sourceTree = "<group>"; };
-		42895EDDDA2BC4954053CEDE5AB6A33B /* webview_for.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_for.png; sourceTree = "<group>"; };
-		4BE919FDB9FF6D8195E20FF96EB488E1 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
+		43BC2B25D6AB5BC1F9DC19F1E1FC94A8 /* SDKDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKDef.h; sourceTree = "<group>"; };
 		4DA89186F9DFB2B6D6AADD64793EBC16 /* Pods-GGQQSDKManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		4EEB2E074A10B323A1C972BB86A8585D /* webview_forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_forward.png; sourceTree = "<group>"; };
 		54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		557A17844693D32D1E3132E9A435508E /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		54C7E514F2DD5FA47F694BA7BF8B8890 /* TencentOpenAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TencentOpenAPI.xcframework; path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework; sourceTree = "<group>"; };
 		57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		68D7B167595F90DBC3571606CA97401C /* share_safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_safari@2x.png"; sourceTree = "<group>"; };
-		6990891768F67DC15EA36C67770AB40A /* webview_forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_forward@2x.png"; sourceTree = "<group>"; };
-		6AE5A36C14F62C440F940A8FC1CEFB0C /* webview_backtogame.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_backtogame.png; sourceTree = "<group>"; };
+		5A72B0523648ED324462CACDFB202C9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
 		6BA1047F1A046A1E068FB52784D36958 /* GGQQSDKManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGQQSDKManager; path = GGQQSDKManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
 		7042C377AB5084A1E5E5477F1ADF4945 /* Pods-GGQQSDKManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71696805005EBD26CB3CF333661A9032 /* refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
-		797A5517C2778EDD464369EAF7FCF75A /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
+		7693842CB43DB14D213BDB1AD26DA555 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
 		7B83881F155D00D6CA65B44ABB3C2ECF /* Pods-GGQQSDKManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F44AD5F675AB38304AD100AEA4BF40F /* share_qzone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_qzone@2x.png"; sourceTree = "<group>"; };
-		7F64B72C5DCCE0A8840DD2CEE688CCD1 /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
-		806D5DDF054B5CE7B79D39D567956C83 /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		7E3E2131C51F1FBA7E64AF6F263003AF /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82FE9ADE3716D9FEE48FD8B30DC1151B /* Pods-GGQQSDKManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Tests"; path = Pods_GGQQSDKManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
 		8FF4EB386B88A54D6E0A1E8B89902B15 /* Pods-GGQQSDKManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9186BD573FFA03689C6351EA8036618B /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
 		92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKDef.h; sourceTree = "<group>"; };
 		93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		94F60A3308D89F22C571366A0E6EBC45 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
+		957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
 		9618167F284AD7774082972F49B70788 /* Pods-GGQQSDKManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Example"; path = Pods_GGQQSDKManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A771DC0842E210DB57DD48395F5567D /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0ADAEB58BD25AF952850B9C3FC74C08 /* webview_recommand@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_recommand@2x.png"; sourceTree = "<group>"; };
+		9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
 		A0F5367479F833C5E4667ADB0A799DA2 /* Pods-GGQQSDKManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A3871ACA957B4514DB35F69382492E3F /* webview_recommand.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_recommand.png; sourceTree = "<group>"; };
-		A5282484027D8ED37AD8ED941A9834C0 /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
+		A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
 		A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Example-dummy.m"; sourceTree = "<group>"; };
 		A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		A6370A601428B379CB30CCED4F6A966F /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
-		A88CE83EF6ABAC0F303C9EC1C2FA953B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AFEF86F98934D5C7AD32EB0B6B1B809A /* qqicon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = qqicon.png; sourceTree = "<group>"; };
-		B1AAB81C9292D0DB2D58FCDBD3AC89A5 /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
-		B9996673AD7C7AC3999BD813297CC6AC /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
-		BC51E11CF7E82D8ABF71B907D59D3173 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
-		BDA55CDCF8594B7BF8F6B32165B7F0B8 /* share_weixin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_weixin.png; sourceTree = "<group>"; };
-		C4733DEA27A2AEF0F89E2BAFBCAF7799 /* webview_stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_stop.png; sourceTree = "<group>"; };
+		B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
+		BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
+		C56FCE93CDD157F839FA050D4581F229 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
 		CE19EB8E29E08AB567F1A3EBD5040C04 /* Pods-GGQQSDKManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGQQSDKManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D3FD63A49FECC8873F68F5EDA48999CB /* Pods-GGQQSDKManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6F04554C78796896CD5044DFD889C96 /* share_safari.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_safari.png; sourceTree = "<group>"; };
 		D975B64C1877CC1D0000ACBDC21338A6 /* Pods-GGQQSDKManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF7CDD1F30C159ED032709F275F78CD4 /* webview_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_more@2x.png"; sourceTree = "<group>"; };
-		E1B1F95BFED8D485EB45104E4316C8D2 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
-		E2D4CE1B587BF8BA78B0C4A5E5030B12 /* SDKDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SDKDef.h; sourceTree = "<group>"; };
+		E027A7D8A2980052297B6279FF1DA4B5 /* TencentOpenApiUmbrellaHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOpenApiUmbrellaHeader.h; sourceTree = "<group>"; };
+		E7DB2C294E4F74E0246F0E38E74F129C /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
 		EBBF2EB1EE9E090CAF2BA6A46360630C /* Pods-GGQQSDKManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Tests.modulemap"; sourceTree = "<group>"; };
-		EBD895A5F7CD6FE807674625C4AC311F /* share_weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_weixin@2x.png"; sourceTree = "<group>"; };
 		ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
 		EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		F1801996F977C0F17EA840644896AA8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F31E9A5AB4C6015B462CA87D89E7DC86 /* share_pengyouquan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_pengyouquan@2x.png"; sourceTree = "<group>"; };
-		F90475026325BFF80442739299348E83 /* btn_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = btn_cancel.png; sourceTree = "<group>"; };
-		F9468053000656E8FC6884905BACAFCA /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = GGQQSDKManager/Classes/TencentOpenAPI.framework; sourceTree = "<group>"; };
-		FA494EB9B775F77E9A68D83A6D24FE2E /* webview_for@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_for@2x.png"; sourceTree = "<group>"; };
 		FE109AB2E2CEF6311493759781227EE8 /* Pods-GGQQSDKManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		850145DBC2151B122C659FAE93F21638 /* Frameworks */ = {
+		3A756CFC8F1F30D7226105A7DB48E91B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CCC4D92A2AE1DAB4E688886555B784D /* CoreGraphics.framework in Frameworks */,
-				396706FE6E1CA34572C439F11F3D1B42 /* CoreTelephony.framework in Frameworks */,
-				FDD213E8BA06C6832431B134BDC91778 /* Foundation.framework in Frameworks */,
-				E496D22F67280D1E28F589A93204E3B3 /* Security.framework in Frameworks */,
-				2E9A60B9A104EBCFC4E32458C240D406 /* SystemConfiguration.framework in Frameworks */,
-				2E3CC085766EC4C935A82BDCD15C8EF8 /* UIKit.framework in Frameworks */,
-				2A6E86C2B80E206B7DF2AFDA1F73E73C /* WebKit.framework in Frameworks */,
+				31B42C39D850E321684703C4B383F5D3 /* CoreGraphics.framework in Frameworks */,
+				683EDAE4F1294F60CB506B90F93440BC /* CoreTelephony.framework in Frameworks */,
+				C51BF097104ED32CACBD1A526C64BA63 /* Foundation.framework in Frameworks */,
+				D809BA547ADA18A1240CB8FF9ABE2C30 /* Security.framework in Frameworks */,
+				313301CAD85F37034A575115B17D1B61 /* SystemConfiguration.framework in Frameworks */,
+				DBB0B01FB7F0918E0EFDA3A35384CA0C /* UIKit.framework in Frameworks */,
+				A95D383C9B3BBDF714DC0BBBFD2C87D8 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,71 +137,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		052B00EC652096DD75CE5E30BF3B99A6 /* Frameworks */ = {
+		1C308F00D7A4FBB477D3C0880DBDC6C1 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				F9468053000656E8FC6884905BACAFCA /* TencentOpenAPI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		06642CAECE44622F205222A28FBA304B /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				557A17844693D32D1E3132E9A435508E /* QQApiInterface.h */,
-				806D5DDF054B5CE7B79D39D567956C83 /* QQApiInterfaceObject.h */,
-				E2D4CE1B587BF8BA78B0C4A5E5030B12 /* SDKDef.h */,
-				BC51E11CF7E82D8ABF71B907D59D3173 /* TencentOAuth.h */,
-				797A5517C2778EDD464369EAF7FCF75A /* TencentOpenApiUmbrellaHeader.h */,
+				00BDBBF83A9AAA58959392795423CBC7 /* QQApiInterface.h */,
+				7693842CB43DB14D213BDB1AD26DA555 /* QQApiInterfaceObject.h */,
+				43BC2B25D6AB5BC1F9DC19F1E1FC94A8 /* SDKDef.h */,
+				C56FCE93CDD157F839FA050D4581F229 /* TencentOAuth.h */,
+				E027A7D8A2980052297B6279FF1DA4B5 /* TencentOpenApiUmbrellaHeader.h */,
 			);
 			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
-		0A52B4E9A9FC8D87785FD4FC08EEF39C /* TencentOpenAPI.framework */ = {
+		36CC13347B0677DC987768E43B6D5CD6 /* GGQQSDKManager */ = {
 			isa = PBXGroup;
 			children = (
-				06642CAECE44622F205222A28FBA304B /* Headers */,
-			);
-			name = TencentOpenAPI.framework;
-			path = GGQQSDKManager/Classes/TencentOpenAPI.framework;
-			sourceTree = "<group>";
-		};
-		358F213FA401F77422617CE1C176A1E4 /* TencentOpenApi_IOS_Bundle.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				E1B1F95BFED8D485EB45104E4316C8D2 /* error.png */,
-				3056B71DFB3D6821BBA280CB42E4B6CB /* local.html */,
-				AFEF86F98934D5C7AD32EB0B6B1B809A /* qqicon.png */,
-				09BCE2A5924F6D6984BB4C14B0B33BD2 /* success.png */,
-				FF9C46911A8275F12A86D41F1F1E6CDD /* WebViewResources */,
-			);
-			name = TencentOpenApi_IOS_Bundle.bundle;
-			path = GGQQSDKManager/Assets/TencentOpenApi_IOS_Bundle.bundle;
-			sourceTree = "<group>";
-		};
-		41C03BBDDEEF5CE6E1C19C217188C6BE /* GGQQSDKManager */ = {
-			isa = PBXGroup;
-			children = (
-				A6370A601428B379CB30CCED4F6A966F /* GGQQSDKManager.h */,
-				9A771DC0842E210DB57DD48395F5567D /* GGQQSDKManager.m */,
-				11286DB8DD13C717B776CFD3E6184750 /* TencentOpenApi_IOS_Bundle.bundle */,
-				052B00EC652096DD75CE5E30BF3B99A6 /* Frameworks */,
-				D1B70CFEC9C2D19F8FA804E4663C3FF9 /* Pod */,
-				FC1A322D1E0934F294851C08ABEF65C1 /* Support Files */,
-				0A52B4E9A9FC8D87785FD4FC08EEF39C /* TencentOpenAPI.framework */,
-				358F213FA401F77422617CE1C176A1E4 /* TencentOpenApi_IOS_Bundle.bundle */,
+				61910F13376158A06EB1DD6413F83F8D /* GGQQSDKManager.h */,
+				BC06EEFC630F9B9D8D22BB364B80F72C /* GGQQSDKManager.m */,
+				6E80C9DFB3EAC04F942413064F920AA8 /* Frameworks */,
+				995FACCE575757A8891E7C7C07297F76 /* Pod */,
+				8680790514A5FD738B3BCB055F96A17A /* Support Files */,
+				ECC8F4DCFC4598209DEF625C812FA518 /* TencentOpenAPI.xcframework */,
 			);
 			name = GGQQSDKManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		7AAE78574BC2CDE2A5CD8FB4EC82F441 /* Development Pods */ = {
+		4ABEB2DED6405BC8E357CB737291D07C /* ios-arm64_x86_64-simulator */ = {
 			isa = PBXGroup;
 			children = (
-				41C03BBDDEEF5CE6E1C19C217188C6BE /* GGQQSDKManager */,
+				B1A0CC01E2D5A1E68FA851FE518F8407 /* TencentOpenAPI.framework */,
 			);
-			name = "Development Pods";
+			name = "ios-arm64_x86_64-simulator";
+			path = "ios-arm64_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		6E80C9DFB3EAC04F942413064F920AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54C7E514F2DD5FA47F694BA7BF8B8890 /* TencentOpenAPI.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
@@ -294,6 +203,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		8680790514A5FD738B3BCB055F96A17A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7DB2C294E4F74E0246F0E38E74F129C /* GGQQSDKManager.modulemap */,
+				6C810FFFC85B3002707DD66D6C5E99CF /* GGQQSDKManager-dummy.m */,
+				9186BD573FFA03689C6351EA8036618B /* GGQQSDKManager-Info.plist */,
+				2CD0E32817CF4144DEFDCA9540DB5787 /* GGQQSDKManager-prefix.pch */,
+				EE010EEBD55214B09FAB9A633900C7CF /* GGQQSDKManager-umbrella.h */,
+				09DBD04B2A9A5CBE22964E2536984499 /* GGQQSDKManager-xcframeworks.sh */,
+				957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */,
+				8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGQQSDKManager";
+			sourceTree = "<group>";
+		};
+		88BC1AE29B331185C37E287DA7A3F735 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				1C308F00D7A4FBB477D3C0880DBDC6C1 /* Headers */,
+			);
+			name = TencentOpenAPI.framework;
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		995FACCE575757A8891E7C7C07297F76 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7E3E2131C51F1FBA7E64AF6F263003AF /* GGQQSDKManager.podspec */,
+				5A72B0523648ED324462CACDFB202C9A /* LICENSE */,
+				0DF37F25B825AC5710FD01AB9D50C13A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -303,25 +247,46 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		B1A0CC01E2D5A1E68FA851FE518F8407 /* TencentOpenAPI.framework */ = {
+			isa = PBXGroup;
+			children = (
+				C67344F5D9BE7940FB42BDF3147D7A72 /* Headers */,
+			);
+			name = TencentOpenAPI.framework;
+			path = TencentOpenAPI.framework;
+			sourceTree = "<group>";
+		};
+		B8B79CAC54802BB7E4ACDA259E81EFE4 /* ios-arm64 */ = {
+			isa = PBXGroup;
+			children = (
+				88BC1AE29B331185C37E287DA7A3F735 /* TencentOpenAPI.framework */,
+			);
+			name = "ios-arm64";
+			path = "ios-arm64";
+			sourceTree = "<group>";
+		};
+		C67344F5D9BE7940FB42BDF3147D7A72 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1CE130E88CEFD71EAA70B29B2458BBAE /* QQApiInterface.h */,
+				9F108875E0B47911781A655F68A352AE /* QQApiInterfaceObject.h */,
+				9375EEE230086745E0DAEB009E3396FB /* SDKDef.h */,
+				A5045D79E48FEA5994A3D68DF0735685 /* TencentOAuth.h */,
+				B87182D3AA6B5C5FE2DA65196547515E /* TencentOpenApiUmbrellaHeader.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7AAE78574BC2CDE2A5CD8FB4EC82F441 /* Development Pods */,
+				F093BA879FB00D20F7B3363CDDF8C571 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				D32C48B5C7F5EF2020FB04E3A9038331 /* Products */,
 				9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D1B70CFEC9C2D19F8FA804E4663C3FF9 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				10E66062D664275707A3688ADAF51F1D /* GGQQSDKManager.podspec */,
-				A88CE83EF6ABAC0F303C9EC1C2FA953B /* LICENSE */,
-				F1801996F977C0F17EA840644896AA8E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D32C48B5C7F5EF2020FB04E3A9038331 /* Products */ = {
@@ -350,6 +315,24 @@
 			path = "Target Support Files/Pods-GGQQSDKManager_Tests";
 			sourceTree = "<group>";
 		};
+		ECC8F4DCFC4598209DEF625C812FA518 /* TencentOpenAPI.xcframework */ = {
+			isa = PBXGroup;
+			children = (
+				B8B79CAC54802BB7E4ACDA259E81EFE4 /* ios-arm64 */,
+				4ABEB2DED6405BC8E357CB737291D07C /* ios-arm64_x86_64-simulator */,
+			);
+			name = TencentOpenAPI.xcframework;
+			path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework;
+			sourceTree = "<group>";
+		};
+		F093BA879FB00D20F7B3363CDDF8C571 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36CC13347B0677DC987768E43B6D5CD6 /* GGQQSDKManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		F282F7ADF57F8BA0FB038DD96596C59D /* Pods-GGQQSDKManager_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,61 +348,6 @@
 			);
 			name = "Pods-GGQQSDKManager_Example";
 			path = "Target Support Files/Pods-GGQQSDKManager_Example";
-			sourceTree = "<group>";
-		};
-		FC1A322D1E0934F294851C08ABEF65C1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9996673AD7C7AC3999BD813297CC6AC /* GGQQSDKManager.modulemap */,
-				1EFD0328703959BE77F9E8996F7965AE /* GGQQSDKManager-dummy.m */,
-				7F64B72C5DCCE0A8840DD2CEE688CCD1 /* GGQQSDKManager-Info.plist */,
-				94F60A3308D89F22C571366A0E6EBC45 /* GGQQSDKManager-prefix.pch */,
-				B1AAB81C9292D0DB2D58FCDBD3AC89A5 /* GGQQSDKManager-umbrella.h */,
-				A5282484027D8ED37AD8ED941A9834C0 /* GGQQSDKManager.debug.xcconfig */,
-				4BE919FDB9FF6D8195E20FF96EB488E1 /* GGQQSDKManager.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGQQSDKManager";
-			sourceTree = "<group>";
-		};
-		FF9C46911A8275F12A86D41F1F1E6CDD /* WebViewResources */ = {
-			isa = PBXGroup;
-			children = (
-				F90475026325BFF80442739299348E83 /* btn_cancel.png */,
-				406E12A7E912454F25A5D8BFA12B6FE6 /* btn_cancel_hover.png */,
-				71696805005EBD26CB3CF333661A9032 /* refresh.png */,
-				1A7AC359FA35D68AE3C1C77609750F1D /* refresh@2x.png */,
-				19E8BDDF0330839AEED857EAE16D195E /* share_pengyouquan.png */,
-				F31E9A5AB4C6015B462CA87D89E7DC86 /* share_pengyouquan@2x.png */,
-				38BD1B08F51CE8FDCC9DD60C2D613DE8 /* share_qq.png */,
-				3EC861D1609AC8F41BFB2E6110E8D6B1 /* share_qq@2x.png */,
-				045EBBC23D155632B9B6CDEAF12B2D87 /* share_qzone.png */,
-				7F44AD5F675AB38304AD100AEA4BF40F /* share_qzone@2x.png */,
-				D6F04554C78796896CD5044DFD889C96 /* share_safari.png */,
-				68D7B167595F90DBC3571606CA97401C /* share_safari@2x.png */,
-				BDA55CDCF8594B7BF8F6B32165B7F0B8 /* share_weixin.png */,
-				EBD895A5F7CD6FE807674625C4AC311F /* share_weixin@2x.png */,
-				005E45B39B1BFA26DB1A325D1E96C06D /* webview_back.png */,
-				292A83C93EC854EE29CD20E604DFDBB2 /* webview_back@2x.png */,
-				6AE5A36C14F62C440F940A8FC1CEFB0C /* webview_backtogame.png */,
-				0038E31FC56E2434F8419CFDFC5634BF /* webview_backtogame@2x.png */,
-				01B62E49EED5D74F5A9422CEB700055A /* webview_backward.png */,
-				140CC5FE6C0F3FF1134033F9C978809F /* webview_backward@2x.png */,
-				42895EDDDA2BC4954053CEDE5AB6A33B /* webview_for.png */,
-				FA494EB9B775F77E9A68D83A6D24FE2E /* webview_for@2x.png */,
-				4EEB2E074A10B323A1C972BB86A8585D /* webview_forward.png */,
-				6990891768F67DC15EA36C67770AB40A /* webview_forward@2x.png */,
-				13394E7471C630516E87E53E2BD41670 /* webview_more.png */,
-				DF7CDD1F30C159ED032709F275F78CD4 /* webview_more@2x.png */,
-				A3871ACA957B4514DB35F69382492E3F /* webview_recommand.png */,
-				A0ADAEB58BD25AF952850B9C3FC74C08 /* webview_recommand@2x.png */,
-				C4733DEA27A2AEF0F89E2BAFBCAF7799 /* webview_stop.png */,
-				02E801B53A90997C0B352566477645F5 /* webview_stop@2x.png */,
-				1938BEB3C6C1BC1A15DBEADF528C5B0E /* webview_toolbg.png */,
-				13E27441830AEB4887F515B1922E32E7 /* webview_toolbg@2x.png */,
-			);
-			name = WebViewResources;
-			path = WebViewResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,17 +369,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57CF203676D5F211944247E6481034F3 /* Headers */ = {
+		E58CE11333963F53E8F6F625AEA1D99C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01ACD78EC871B4A3BCEEFDD0C04AB42 /* GGQQSDKManager.h in Headers */,
-				8AD406E17B5174C3439DF2F7F4689ECA /* GGQQSDKManager-umbrella.h in Headers */,
-				49BB1B4812D136C900887918EE37CBE7 /* QQApiInterface.h in Headers */,
-				FB0E2B2E810761D6804A546BEA4C30A3 /* QQApiInterfaceObject.h in Headers */,
-				C95678DD7FD0A896BC134481E2AEEA70 /* SDKDef.h in Headers */,
-				F27FFE1CF1FCB61AE3B73EBAC75BC703 /* TencentOAuth.h in Headers */,
-				342FE147CD508303F3DCB886D19F7CEF /* TencentOpenApiUmbrellaHeader.h in Headers */,
+				84ED9DA11130E85ADE56C97193236A3C /* GGQQSDKManager.h in Headers */,
+				F87AE95074F2E6E5AF94002BBBDA8259 /* GGQQSDKManager-umbrella.h in Headers */,
+				FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */,
+				FAA3B7D50411ED2B56A959FB02055B89 /* QQApiInterface.h in Headers */,
+				3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */,
+				3571E7708C98DA02CCA24847DC8CCC6A /* QQApiInterfaceObject.h in Headers */,
+				3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */,
+				3129C49C0C839430E16DC762F5DDF2A1 /* SDKDef.h in Headers */,
+				DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */,
+				DC8E51F16FF2578DCCEE1151A687D78B /* TencentOAuth.h in Headers */,
+				F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */,
+				F942B6358686114CBDCDE9AF7505FDFD /* TencentOpenApiUmbrellaHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,12 +393,13 @@
 /* Begin PBXNativeTarget section */
 		1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1A0FBCF7F45FE57EC55EE2BCBB2BD8F /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
+			buildConfigurationList = E42DF1449569BD1028B17D28F145F046 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
 			buildPhases = (
-				57CF203676D5F211944247E6481034F3 /* Headers */,
-				7B64C4BED763A556BB0ED0F08EE97043 /* Sources */,
-				850145DBC2151B122C659FAE93F21638 /* Frameworks */,
-				450319A7FD46BAD92ECBA830B1E58E1B /* Resources */,
+				E58CE11333963F53E8F6F625AEA1D99C /* Headers */,
+				764BC3BA2E19071175BA958B1ADAE94B /* [CP] Copy XCFrameworks */,
+				A0EAA694C558189536D7F2B232A5C9FB /* Sources */,
+				3A756CFC8F1F30D7226105A7DB48E91B /* Frameworks */,
+				175C5E805564C34DE633DA905432905D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -488,7 +422,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				82353D391893E966A5D0519383BE0D20 /* PBXTargetDependency */,
+				352F7F64C3CE65F62334639D340D91EB /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Example";
 			productName = Pods_GGQQSDKManager_Example;
@@ -507,7 +441,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D111C8A88762733BB61332FD8B4F2EB /* PBXTargetDependency */,
+				40611FE4783D334AFAC2BAC01A58B7AC /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Tests";
 			productName = Pods_GGQQSDKManager_Tests;
@@ -546,47 +480,10 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		450319A7FD46BAD92ECBA830B1E58E1B /* Resources */ = {
+		175C5E805564C34DE633DA905432905D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C36A233363A182B0CCD79FF5723C72F /* btn_cancel.png in Resources */,
-				C4DFEA0178B56A6DA7F37C613E9B2402 /* btn_cancel_hover.png in Resources */,
-				5476BBF0766A0A738416E2989F259ED0 /* error.png in Resources */,
-				206C58A0EFD36ADCC513E1603E869219 /* local.html in Resources */,
-				35500D166B32B67089B8F5FB2D4D2D6D /* qqicon.png in Resources */,
-				CEAE25E5F3F9585023A286B23D0CA5A1 /* refresh.png in Resources */,
-				744FC3C38F65DB8AFF654D979C7FA613 /* refresh@2x.png in Resources */,
-				595E8F101A714288215CBD14F3AED76B /* share_pengyouquan.png in Resources */,
-				261E1B793FA563521EE1B92B689A3914 /* share_pengyouquan@2x.png in Resources */,
-				B359B8DFCEFBCF8E5358206B92E781FF /* share_qq.png in Resources */,
-				A9C085B5296B8A9995F318C14CA6D9C3 /* share_qq@2x.png in Resources */,
-				498157712D4CD4F864FE7D683773ED1F /* share_qzone.png in Resources */,
-				DE3018370BD4BB464E095DABE281D2D4 /* share_qzone@2x.png in Resources */,
-				6546711EF2CC28665A2E232BA96564F4 /* share_safari.png in Resources */,
-				1BAC4A450DA45E09CF0DD718F309477C /* share_safari@2x.png in Resources */,
-				1EC2A505121B79C2A01D1A7AD9518B8D /* share_weixin.png in Resources */,
-				544979CDB1D43F50DEC2D1BB163C819A /* share_weixin@2x.png in Resources */,
-				5017C9CCFA4A00C200C4A1DFADE368B9 /* success.png in Resources */,
-				6576E1F11FD8193DF5B3EDE5C9AB6257 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
-				3ED87451EA19C335E88B5CF2DFBFAD4E /* webview_back.png in Resources */,
-				85C2C642708F2992232B9F8A5F6A143B /* webview_back@2x.png in Resources */,
-				4C56BFDC0589E74313271C03642F385F /* webview_backtogame.png in Resources */,
-				23ABD18E826A0FC206F803EDA9381B50 /* webview_backtogame@2x.png in Resources */,
-				0C67869AA48654F6577B8FCC6287D4B3 /* webview_backward.png in Resources */,
-				EC7E667228F664D368CFB8143300ED54 /* webview_backward@2x.png in Resources */,
-				1B8C74F4C144276D48ACCD13D8529D60 /* webview_for.png in Resources */,
-				80E3D3119485109A1B89976417ED61AA /* webview_for@2x.png in Resources */,
-				B473F537730CF626A7495171B6601B61 /* webview_forward.png in Resources */,
-				45F374060351A9BB322FBDEB05045DB4 /* webview_forward@2x.png in Resources */,
-				BF17123E043AEFCB3F8FFACE9A5C37E6 /* webview_more.png in Resources */,
-				D1BAF390D2ED85A30D03AE044288C7B6 /* webview_more@2x.png in Resources */,
-				DD6B464B6D7A394545489733729B0446 /* webview_recommand.png in Resources */,
-				2E5A72100E5CD95905F9142923837AA4 /* webview_recommand@2x.png in Resources */,
-				8EBA5B1E75A642A3F2F66B1766937CFF /* webview_stop.png in Resources */,
-				7DDB3854F03C4DE5CE31568BC75CFE28 /* webview_stop@2x.png in Resources */,
-				1170D533EC794997051DEE642B1B151B /* webview_toolbg.png in Resources */,
-				26356B662475507651D6946F4E1B1A11 /* webview_toolbg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +503,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		764BC3BA2E19071175BA958B1ADAE94B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/GGQQSDKManager/GGQQSDKManager-xcframeworks.sh",
+				"${PODS_ROOT}/../../GGQQSDKManager/Classes/TencentOpenAPI.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GGQQSDKManager/TencentOpenAPI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GGQQSDKManager/GGQQSDKManager-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3962EA0813136B74F09A4571CC8A8734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -615,12 +533,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B64C4BED763A556BB0ED0F08EE97043 /* Sources */ = {
+		A0EAA694C558189536D7F2B232A5C9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC2CBD77AAA1EA55C159BF13D06B3F5 /* GGQQSDKManager.m in Sources */,
-				5B01E8266C6979EF7DE2FB96A0554404 /* GGQQSDKManager-dummy.m in Sources */,
+				20F656A093C19AD1CE4066451D7245A1 /* GGQQSDKManager.m in Sources */,
+				3BB93CEC7F2AD7824C8068B8E23D9C2B /* GGQQSDKManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,94 +553,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D111C8A88762733BB61332FD8B4F2EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GGQQSDKManager_Example";
-			target = 727605D77659C3F5239315974E983937 /* Pods-GGQQSDKManager_Example */;
-			targetProxy = 99F1FC13C2C0276219B98FBBA93762D6 /* PBXContainerItemProxy */;
-		};
-		82353D391893E966A5D0519383BE0D20 /* PBXTargetDependency */ = {
+		352F7F64C3CE65F62334639D340D91EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGQQSDKManager;
 			target = 1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */;
-			targetProxy = B3E131B014AA758510A07025462676EC /* PBXContainerItemProxy */;
+			targetProxy = A01175B136A0DD8FDF205F1760FC50BA /* PBXContainerItemProxy */;
+		};
+		40611FE4783D334AFAC2BAC01A58B7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GGQQSDKManager_Example";
+			target = 727605D77659C3F5239315974E983937 /* Pods-GGQQSDKManager_Example */;
+			targetProxy = 38F4EF7DD9F6CA496113CE555514660E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0459AC571980F07A8F01B74D460C2C49 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BE919FDB9FF6D8195E20FF96EB488E1 /* GGQQSDKManager.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
-				PRODUCT_MODULE_NAME = GGQQSDKManager;
-				PRODUCT_NAME = GGQQSDKManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2746828685CB3C6ED8C4056B9C555776 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5282484027D8ED37AD8ED941A9834C0 /* GGQQSDKManager.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
-				PRODUCT_MODULE_NAME = GGQQSDKManager;
-				PRODUCT_NAME = GGQQSDKManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3243AA1134795A3DB5EACEB9AEA4A0FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30888191B21B3B1ABBE0484A69FC9B79 /* Pods-GGQQSDKManager_Example.debug.xcconfig */;
@@ -861,6 +706,43 @@
 			};
 			name = Debug;
 		};
+		964A6B2A7C4E9DD1B8586D791ECB1BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8873509CFE51508A9FB492A6B6620D14 /* GGQQSDKManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GGQQSDKManager;
+				PRODUCT_NAME = GGQQSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -960,6 +842,42 @@
 			};
 			name = Release;
 		};
+		E28EF8CEA9819EFBD903E5C79D67AD0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957A4123D68267B5A8BCCD8AF4339DB5 /* GGQQSDKManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GGQQSDKManager;
+				PRODUCT_NAME = GGQQSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		EB7D16980269AE3EB235BD014FE04DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C8B4CAD4EEE726701A8504F9DA21F8D /* Pods-GGQQSDKManager_Example.release.xcconfig */;
@@ -1018,11 +936,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1A0FBCF7F45FE57EC55EE2BCBB2BD8F /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
+		E42DF1449569BD1028B17D28F145F046 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2746828685CB3C6ED8C4056B9C555776 /* Debug */,
-				0459AC571980F07A8F01B74D460C2C49 /* Release */,
+				E28EF8CEA9819EFBD903E5C79D67AD0A /* Debug */,
+				964A6B2A7C4E9DD1B8586D791ECB1BD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
