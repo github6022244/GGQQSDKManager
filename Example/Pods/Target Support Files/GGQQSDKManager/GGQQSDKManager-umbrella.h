@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GGQQSDKManager.h"
 
 FOUNDATION_EXPORT double GGQQSDKManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char GGQQSDKManagerVersionString[];

@@ -7,12 +7,18 @@
 //
 
 #import "GGQQSDKAppDelegate.h"
+#import "GGQQSDKManager.h"
 
 @implementation GGQQSDKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [GGQQSDKManager setUserAgreedAuthorization:YES];
+    
+    [[GGQQSDKManager sharedManager] setupWithAppID:@"YOUR_APP_ID" 
+                                     universalLink:@"YOUR_UNIVERSAL_LINK"
+                                enableUniversalLink:YES];
+    
     return YES;
 }
 
@@ -41,6 +47,80 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - URL Scheme & Universal Link Handling
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+    return [self handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    return [self handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void (^)(NSArray<id<UIUserActivityRestoring>> * _Nullable))restorationHandler {
+    if ([userActivity.activityType isEqualToString:NSUserActivityTypeBrowsingWeb]) {
+        NSURL *url = userActivity.webpageURL;
+        if (url) {
+            return [self handleUniversalLink:url];
+        }
+    }
+    return YES;
+}
+
+/**
+ * 链式处理 URL Scheme
+ * 按顺序尝试各个 SDK，返回第一个能处理的结果
+ */
+- (BOOL)handleOpenURL:(NSURL *)url {
+    // 1. 尝试 QQ SDK
+    if ([GGQQSDKManager canHandleURL:url]) {
+        if ([[GGQQSDKManager sharedManager] handleOpenURL:url]) {
+            return YES;
+        }
+    }
+    
+    // 2. 尝试 微信 SDK (示例，需引入微信SDK)
+    // if ([WXApi handleOpenURL:url delegate:self.wxDelegate]) {
+    //     return YES;
+    // }
+    
+    // 3. 尝试 新浪微博 SDK (示例，需引入微博SDK)
+    // if ([WeiboSDK handleOpenURL:url delegate:self.weiboDelegate]) {
+    //     return YES;
+    // }
+    
+    // 4. 其他自定义URL处理
+    // ...
+    
+    return NO;
+}
+
+/**
+ * 链式处理 Universal Link
+ * 按顺序尝试各个 SDK，返回第一个能处理的结果
+ */
+- (BOOL)handleUniversalLink:(NSURL *)url {
+    // 1. 尝试 QQ SDK
+    if ([GGQQSDKManager canHandleUniversalLink:url]) {
+        if ([[GGQQSDKManager sharedManager] handleUniversalLink:url]) {
+            return YES;
+        }
+    }
+    
+    // 2. 尝试 微信 SDK (示例，需引入微信SDK)
+    // if ([WXApi handleUniversalLink:url delegate:self.wxDelegate]) {
+    //     return YES;
+    // }
+    
+    // 3. 尝试 新浪微博 SDK (示例，需引入微博SDK)
+    // ...
+    
+    // 4. 其他自定义Universal Link处理
+    // ...
+    
+    return NO;
 }
 
 @end
