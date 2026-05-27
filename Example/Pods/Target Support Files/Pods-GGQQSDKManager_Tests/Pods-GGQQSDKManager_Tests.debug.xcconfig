@@ -1,8 +1,5 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-CODE_SIGNING_ALLOWED = NO
-CODE_SIGNING_REQUIRED = NO
-ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GGQQSDKManager" "${PODS_ROOT}/../../GGQQSDKManager/Classes" "${PODS_XCFRAMEWORKS_BUILD_DIR}/GGQQSDKManager"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GGQQSDKManager" "${PODS_ROOT}/../../GGQQSDKManager/Classes"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/GGQQSDKManager/GGQQSDKManager.framework/Headers"
 OTHER_LDFLAGS = $(inherited) -ObjC -all_load -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "GGQQSDKManager" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit"

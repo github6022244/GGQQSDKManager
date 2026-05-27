@@ -1,10 +1,8 @@
 CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-CODE_SIGNING_ALLOWED = NO
-CODE_SIGNING_REQUIRED = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/GGQQSDKManager
 ENABLE_BITCODE = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GGQQSDKManager/Classes" "${PODS_XCFRAMEWORKS_BUILD_DIR}/GGQQSDKManager"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../GGQQSDKManager/Classes"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 OTHER_LDFLAGS = $(inherited) -ObjC -all_load -l"c++" -l"iconv" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit" -framework "WebKit"
 PODS_BUILD_DIR = ${BUILD_DIR}

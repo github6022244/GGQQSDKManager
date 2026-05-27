@@ -7,34 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		237F40C19AC0F967438311B2747C8980 /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */; };
+		0509335BD249AFC7A1F052267F0292B5 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
+		0ABC02255B05DE6671F27FD603CC043E /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC0AD0E83EAB1A6967604BF6546B08F /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1007E3FB792120E75837399C819AA1EC /* GGQQSDKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E0A0460614F91D9AD29F0F47F775A /* GGQQSDKManager.m */; };
+		1EE871620E7AA79118F1C604A1781E9D /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFFA109B072B412BFCC4DFD17B37A06F /* TencentOpenApi_IOS_Bundle.bundle */; };
+		202363979A436EFC979493F16E00B5C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
+		24CA79FF6C8C8DE68E1B076D39E28FA7 /* webview_recommand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C3FEB1081CDB66257E755C7D3FF5939 /* webview_recommand@2x.png */; };
+		250FC1D686018AD9CDF450F6053DD43D /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 100A68F944D6221F12DDD7A65393BB99 /* refresh.png */; };
 		2A27B2E2291320BC81967BB2B8F2F122 /* Pods-GGQQSDKManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38A40A5948DE0F9A8A7B539F0BDA0B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
-		3E5F82E088261DC56C02BE2A60A83389 /* GGQQSDKManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F72230364A6F1B426D9B0633B188C5A /* webview_more@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11DE1BB24317821D32349C00D24EAFE /* webview_more@2x.png */; };
+		33EBD59306408927E02BDFE6B33F9BF8 /* btn_cancel_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 39696DD09C2DD15242A9DCF51BFD5F41 /* btn_cancel_hover.png */; };
 		3F3FA05B21B08F9DA1CDC0573F66FEFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		43F66018BA00876F5DF709AE6590A9DA /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
-		54D7C8C62FEDF2EFDF4F1E0B8DF2A065 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */; };
-		698BD1477E5A57B3FF47C95DE44B6C35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */; };
-		745E9FA6024919BDAA970F0CBA4EECEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
+		410209D2E59C854050EC5F7C0E593A24 /* qqicon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC915D084FAAB57FE9DEEC5B44CFBD1C /* qqicon.png */; };
+		4A7D355E70FBC999D2C797C9CB90788F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
+		4FAA2C75553E894B2FE934238C5ABDCD /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D83D5DF7ED2F21F18DC8314DC636140 /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52CE3A7D231FAED840DF85F5AC32B312 /* webview_for.png in Resources */ = {isa = PBXBuildFile; fileRef = 10B54774101F61DE70F6295CE66B4BD6 /* webview_for.png */; };
+		59E010C21852D3BD9A74CC429FBFE8C7 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 5672A6E2F38B3547B7F762BC4E011966 /* success.png */; };
+		5A221EAB08FB45E7E3B8865CE5D9DF57 /* webview_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 050466BFE02B509A46C160452544B16A /* webview_forward.png */; };
+		6E9F3C0BEB3E26C427906F4106CB0459 /* share_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49D4A54010FF4AB07D22D453A25689A8 /* share_weixin@2x.png */; };
+		6F8D6C8C11DB934B4B3A1B7CAA516BB9 /* webview_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = D27204C29EB2503E87120B8F564B5499 /* webview_stop.png */; };
+		712067E1BA77827D61E9EE1C2E0781CC /* webview_recommand.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1D77C5600BDEBD12B1AC90DBE9FAE2 /* webview_recommand.png */; };
+		7AC5A5DBA5609FD7A716A9EDCD33D497 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */; };
+		7D8A7C21F46C65F9F71F4F9AF1938C36 /* webview_forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AE2FAAE8433885BF48EE591BD92A6A5 /* webview_forward@2x.png */; };
+		7E8D91149D4886B5583C2BE984765910 /* share_safari.png in Resources */ = {isa = PBXBuildFile; fileRef = BD31E122E70880B8FC7101E0B3B3FD95 /* share_safari.png */; };
+		818A7ED3A2A6A0F1DCDC63BE1A9CA886 /* webview_stop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 802A60B2FBF130840531847B482F77A7 /* webview_stop@2x.png */; };
 		857716D8647E1A094F657F318FF721BD /* Pods-GGQQSDKManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */; };
-		A260F3D2B9ECE0F16559BBF2966DB913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */; };
-		A982077FFFA15DBC0FCD26EA2FCFE542 /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */; };
-		BD8DD1FB569D5051C9B5812075F7EAA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
+		8596DD3BE8DCF7878B54208EDE98737F /* webview_backward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E38A4F80E3562A622F2C219EF17FDEC1 /* webview_backward@2x.png */; };
+		8B29843B621D10A3D88AC38BD9C34CAE /* btn_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CE1C681A00FEDCE6BE8CA3F50B47CE /* btn_cancel.png */; };
+		96FA60A0C5E80EBD571E5CCFEBDA0A6F /* share_safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD5DD6A531E131E0AEF4EE8FC7A29D11 /* share_safari@2x.png */; };
+		9808F1275B523949A90844072C9CE8C7 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02A0E7B6D3A7C5B6F55D548919A2FB2C /* refresh@2x.png */; };
+		9938819721D0EDBA02811273B94A014E /* webview_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 1114DC3D5DC45A5F9ABA5E1856E0875B /* webview_back.png */; };
+		B2D7467CD44CB18F830DA1B42542C70B /* share_qzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC362C4B37A1F18BEC0268FA4CD5AA23 /* share_qzone@2x.png */; };
+		B5D134F12C55CE45CBB20F48186EE4B2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */; };
+		B929A6750EF887E5E9C6691803FE51D6 /* webview_toolbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA54E3C2F2A648519D2E6A0FDC15AD4B /* webview_toolbg@2x.png */; };
+		BD2A5D0DD29B8784AFE964ACF995C2F0 /* webview_toolbg.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC8200542B3FF2CDE8850F9E7C1F136 /* webview_toolbg.png */; };
 		BDD753DE4C89DAEF55B46C5CC430B201 /* Pods-GGQQSDKManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE45CB92E418C3F3D4AD255D57FC1170 /* Pods-GGQQSDKManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */; };
+		BE5E5D6C139D0A36AB942238729E9107 /* webview_backtogame.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2815128150A7C4EB120D3532601B31 /* webview_backtogame.png */; };
+		C6EE7FFEC83DAAEFA18DABB15761A583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
+		CCD1B6D828528EA578BF3947D517EFE7 /* webview_more.png in Resources */ = {isa = PBXBuildFile; fileRef = F795A13AC86E1B1272BBFD72A92423D7 /* webview_more.png */; };
+		D3304054431B4001BC41C40BBD14888F /* share_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = E649CF3F25AA6CEFAFF952F9902C4192 /* share_qq.png */; };
+		D53195B79836121AE3A0F3DAD52FF50E /* share_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 10E53A694F33CC96A6D728992858E8FF /* share_weixin.png */; };
+		D7920D75B84F52FC8D33AC94A2D821FA /* share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CABC4F92DB8CFE4B6BF4F103C870772 /* share_qq@2x.png */; };
+		DE7D84E9CF5C35C040708E65EB43DB3F /* webview_backward.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D37C0902B14B5762E89418145DE5159 /* webview_backward.png */; };
+		DFC7F8D0DBAE01BF2D1C5C51146F1AD8 /* share_pengyouquan.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C688E0CADFA0F32E456847C8CB44B4 /* share_pengyouquan.png */; };
+		E2DF36A5BEE86AB98BC0CC1D0FCB8443 /* share_qzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 937C040AD1AD1B6E9F475C04473E2245 /* share_qzone.png */; };
+		E4C53E5E8501D3A46A270FBC352A2F63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */; };
+		E68EF82F04831CAAF18F4964BAB304AA /* webview_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3C2DFC243625A1D6F2CC45844ECF6D8 /* webview_back@2x.png */; };
 		E84430E71E981BF1916D07D9A7BD997F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */; };
-		E95CEEE59FFA512F740F2604D44B6083 /* GGQQSDKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78649937A7E561BB7EA72C7276AADC4 /* share_pengyouquan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AF0DD0BD2E617EDCE5305E69D71F5F /* share_pengyouquan@2x.png */; };
+		F8FFA2D3C9970104BB0AA7D11239FAC3 /* webview_backtogame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9843B4F6E3BB14248E2D498423EEDED /* webview_backtogame@2x.png */; };
+		FB7134140DD47151041276D40BB6BCC5 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 302D5AD5C7F231F496BAEDDECCF02C46 /* error.png */; };
+		FD2777423A22D23A67D2F4A79BE9288C /* webview_for@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 674F743E6A0E6034263C44DFF0E7A342 /* webview_for@2x.png */; };
+		FF2BD7D7C1312074131A70EB39BE49BC /* GGQQSDKManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C572232631B86B51CAB3C78EC26F4 /* GGQQSDKManager-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A3BD90BACBB0FB19482712C32E0FC97 /* PBXContainerItemProxy */ = {
+		31756CD4CF0F1029534A20808FFF025A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1F7C2C4AEEEF01239E692A21780BD14D;
 			remoteInfo = GGQQSDKManager;
 		};
-		99CD887B785BAE1ED5CA84E460F23BD5 /* PBXContainerItemProxy */ = {
+		F97C515F006E93267E656C5C6A6ED53E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -44,47 +80,82 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
+		02A0E7B6D3A7C5B6F55D548919A2FB2C /* refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
 		03B7EFBC35CDDDCC369DB05C5495DA11 /* Pods-GGQQSDKManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-Info.plist"; sourceTree = "<group>"; };
-		05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
+		050466BFE02B509A46C160452544B16A /* webview_forward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_forward.png; sourceTree = "<group>"; };
 		0685BB9263668DB44C62ACAFA30DDE2B /* Pods-GGQQSDKManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0C8B4CAD4EEE726701A8504F9DA21F8D /* Pods-GGQQSDKManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0E53025CCCE3086B01938B86E3FD1B4D /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
+		100A68F944D6221F12DDD7A65393BB99 /* refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		10B54774101F61DE70F6295CE66B4BD6 /* webview_for.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_for.png; sourceTree = "<group>"; };
+		10E53A694F33CC96A6D728992858E8FF /* share_weixin.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_weixin.png; sourceTree = "<group>"; };
+		1114DC3D5DC45A5F9ABA5E1856E0875B /* webview_back.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_back.png; sourceTree = "<group>"; };
+		15AF0DD0BD2E617EDCE5305E69D71F5F /* share_pengyouquan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_pengyouquan@2x.png"; sourceTree = "<group>"; };
+		1CAFE95E2796BBDA72B549CEE2C2BF3A /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = GGQQSDKManager/Classes/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		1D469C53EC6AF820BFCBEEAED9636535 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
+		1E2815128150A7C4EB120D3532601B31 /* webview_backtogame.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_backtogame.png; sourceTree = "<group>"; };
 		22F2E65E76F15A5218D6381699037A90 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.release.xcconfig; sourceTree = "<group>"; };
+		2CABC4F92DB8CFE4B6BF4F103C870772 /* share_qq@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_qq@2x.png"; sourceTree = "<group>"; };
+		302D5AD5C7F231F496BAEDDECCF02C46 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
 		30888191B21B3B1ABBE0484A69FC9B79 /* Pods-GGQQSDKManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39696DD09C2DD15242A9DCF51BFD5F41 /* btn_cancel_hover.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = btn_cancel_hover.png; sourceTree = "<group>"; };
 		3D16826388CE4AAD54BA6D4091B1A7C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49D4A54010FF4AB07D22D453A25689A8 /* share_weixin@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_weixin@2x.png"; sourceTree = "<group>"; };
 		4DA89186F9DFB2B6D6AADD64793EBC16 /* Pods-GGQQSDKManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		4DC0AD0E83EAB1A6967604BF6546B08F /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
 		54470F513E95374299D0077419C6F5A0 /* Pods-GGQQSDKManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
+		5672A6E2F38B3547B7F762BC4E011966 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
 		57B6D788BBD4C172F4D1FF1E36E6ADF7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		5B741503D114453602858A30079B8A94 /* GGQQSDKManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGQQSDKManager-Info.plist"; sourceTree = "<group>"; };
+		5C3FEB1081CDB66257E755C7D3FF5939 /* webview_recommand@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_recommand@2x.png"; sourceTree = "<group>"; };
+		5D83D5DF7ED2F21F18DC8314DC636140 /* GGQQSDKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGQQSDKManager.h; path = GGQQSDKManager/Classes/GGQQSDKManager.h; sourceTree = "<group>"; };
+		674F743E6A0E6034263C44DFF0E7A342 /* webview_for@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_for@2x.png"; sourceTree = "<group>"; };
+		69C688E0CADFA0F32E456847C8CB44B4 /* share_pengyouquan.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_pengyouquan.png; sourceTree = "<group>"; };
+		6AE2FAAE8433885BF48EE591BD92A6A5 /* webview_forward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_forward@2x.png"; sourceTree = "<group>"; };
 		6BA1047F1A046A1E068FB52784D36958 /* GGQQSDKManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGQQSDKManager; path = GGQQSDKManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEE9A711001E98A6E5641556DCAB85F /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E1D77C5600BDEBD12B1AC90DBE9FAE2 /* webview_recommand.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_recommand.png; sourceTree = "<group>"; };
+		702E0A0460614F91D9AD29F0F47F775A /* GGQQSDKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GGQQSDKManager.m; path = GGQQSDKManager/Classes/GGQQSDKManager.m; sourceTree = "<group>"; };
 		7042C377AB5084A1E5E5477F1ADF4945 /* Pods-GGQQSDKManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		785862A4BA6436EACD865076D9F253F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7B83881F155D00D6CA65B44ABB3C2ECF /* Pods-GGQQSDKManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		802A60B2FBF130840531847B482F77A7 /* webview_stop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_stop@2x.png"; sourceTree = "<group>"; };
+		81908273495010ADFB5A07D06993C7F3 /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
 		82FE9ADE3716D9FEE48FD8B30DC1151B /* Pods-GGQQSDKManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Tests"; path = Pods_GGQQSDKManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
-		8CC145D31514A68B2AFCDE4B3ADCC2B6 /* GGQQSDKManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGQQSDKManager.modulemap; sourceTree = "<group>"; };
+		889F4D2A41E6960DEC6A485FBFB060D9 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
+		8D37C0902B14B5762E89418145DE5159 /* webview_backward.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_backward.png; sourceTree = "<group>"; };
 		8FF4EB386B88A54D6E0A1E8B89902B15 /* Pods-GGQQSDKManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		92A10EBD2BBFDE25FB1423E1ECE3ADB0 /* Pods-GGQQSDKManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGQQSDKManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		937C040AD1AD1B6E9F475C04473E2245 /* share_qzone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_qzone.png; sourceTree = "<group>"; };
 		93D2CC2B7F9A11D35F07B2FB26BF90FC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9618167F284AD7774082972F49B70788 /* Pods-GGQQSDKManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GGQQSDKManager_Example"; path = Pods_GGQQSDKManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB186A81AF82160C6005DC00E2D8492 /* TencentOpenAPI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TencentOpenAPI.xcframework; path = GGQQSDKManager/Classes/TencentOpenAPI.xcframework; sourceTree = "<group>"; };
+		9F2C572232631B86B51CAB3C78EC26F4 /* GGQQSDKManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGQQSDKManager-dummy.m"; sourceTree = "<group>"; };
 		A0F5367479F833C5E4667ADB0A799DA2 /* Pods-GGQQSDKManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGQQSDKManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A610B31074EF35E03D7C670C2EBB818F /* Pods-GGQQSDKManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGQQSDKManager_Example-dummy.m"; sourceTree = "<group>"; };
 		A61B45F76B974B044A671BB6CDB17552 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		B108579DAD5F616657C51BF524B34367 /* GGQQSDKManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-prefix.pch"; sourceTree = "<group>"; };
+		A9843B4F6E3BB14248E2D498423EEDED /* webview_backtogame@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_backtogame@2x.png"; sourceTree = "<group>"; };
+		ABC8200542B3FF2CDE8850F9E7C1F136 /* webview_toolbg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_toolbg.png; sourceTree = "<group>"; };
+		AC915D084FAAB57FE9DEEC5B44CFBD1C /* qqicon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = qqicon.png; sourceTree = "<group>"; };
+		B3C2DFC243625A1D6F2CC45844ECF6D8 /* webview_back@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_back@2x.png"; sourceTree = "<group>"; };
+		BD220A8FB71217BD836F239F5F0F2587 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BD31E122E70880B8FC7101E0B3B3FD95 /* share_safari.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_safari.png; sourceTree = "<group>"; };
+		CC362C4B37A1F18BEC0268FA4CD5AA23 /* share_qzone@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_qzone@2x.png"; sourceTree = "<group>"; };
 		CE19EB8E29E08AB567F1A3EBD5040C04 /* Pods-GGQQSDKManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGQQSDKManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CFFA109B072B412BFCC4DFD17B37A06F /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = GGQQSDKManager/Assets/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		D27204C29EB2503E87120B8F564B5499 /* webview_stop.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_stop.png; sourceTree = "<group>"; };
 		D3FD63A49FECC8873F68F5EDA48999CB /* Pods-GGQQSDKManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGQQSDKManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5D40C12F3466C8CF47E39A31160F587 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D4DAA55C0AD22AFB9D8F2C2E20E53178 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D975B64C1877CC1D0000ACBDC21338A6 /* Pods-GGQQSDKManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGQQSDKManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGQQSDKManager-umbrella.h"; sourceTree = "<group>"; };
-		E9BEFE31C4F4FB74A1D18C5A3B874503 /* GGQQSDKManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GGQQSDKManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA54E3C2F2A648519D2E6A0FDC15AD4B /* webview_toolbg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_toolbg@2x.png"; sourceTree = "<group>"; };
+		E38A4F80E3562A622F2C219EF17FDEC1 /* webview_backward@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_backward@2x.png"; sourceTree = "<group>"; };
+		E4CE1C681A00FEDCE6BE8CA3F50B47CE /* btn_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = btn_cancel.png; sourceTree = "<group>"; };
+		E649CF3F25AA6CEFAFF952F9902C4192 /* share_qq.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = share_qq.png; sourceTree = "<group>"; };
+		E6FC6B1CC232BB2BB31AA45855C2522F /* GGQQSDKManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGQQSDKManager.debug.xcconfig; sourceTree = "<group>"; };
 		EBBF2EB1EE9E090CAF2BA6A46360630C /* Pods-GGQQSDKManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Tests.modulemap"; sourceTree = "<group>"; };
 		ED75805AFB693E309F5B706A533B2C1B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		EF7AC12FC025CD655238D7DD2C5FA896 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		F880AF6458078428CD50CC15C570E2FF /* GGQQSDKManager-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GGQQSDKManager-xcframeworks.sh"; sourceTree = "<group>"; };
+		F11DE1BB24317821D32349C00D24EAFE /* webview_more@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "webview_more@2x.png"; sourceTree = "<group>"; };
+		F795A13AC86E1B1272BBFD72A92423D7 /* webview_more.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = webview_more.png; sourceTree = "<group>"; };
+		FD5DD6A531E131E0AEF4EE8FC7A29D11 /* share_safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "share_safari@2x.png"; sourceTree = "<group>"; };
 		FE109AB2E2CEF6311493759781227EE8 /* Pods-GGQQSDKManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGQQSDKManager_Example.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,55 +176,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AABAADC52F64E8B53B3C30AB10E67BFE /* Frameworks */ = {
+		B58B2B0ADEC1A5F277179BE4183C2363 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				698BD1477E5A57B3FF47C95DE44B6C35 /* CoreGraphics.framework in Frameworks */,
-				43F66018BA00876F5DF709AE6590A9DA /* CoreTelephony.framework in Frameworks */,
-				BD8DD1FB569D5051C9B5812075F7EAA9 /* Foundation.framework in Frameworks */,
-				745E9FA6024919BDAA970F0CBA4EECEF /* Security.framework in Frameworks */,
-				38A40A5948DE0F9A8A7B539F0BDA0B4B /* SystemConfiguration.framework in Frameworks */,
-				A260F3D2B9ECE0F16559BBF2966DB913 /* UIKit.framework in Frameworks */,
-				54D7C8C62FEDF2EFDF4F1E0B8DF2A065 /* WebKit.framework in Frameworks */,
+				202363979A436EFC979493F16E00B5C2 /* CoreGraphics.framework in Frameworks */,
+				7AC5A5DBA5609FD7A716A9EDCD33D497 /* CoreTelephony.framework in Frameworks */,
+				C6EE7FFEC83DAAEFA18DABB15761A583 /* Foundation.framework in Frameworks */,
+				B5D134F12C55CE45CBB20F48186EE4B2 /* Security.framework in Frameworks */,
+				E4C53E5E8501D3A46A270FBC352A2F63 /* SystemConfiguration.framework in Frameworks */,
+				4A7D355E70FBC999D2C797C9CB90788F /* UIKit.framework in Frameworks */,
+				0509335BD249AFC7A1F052267F0292B5 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03DA001298C2365E725FF5B02EC322D7 /* Support Files */ = {
+		4CFF432CE89F434C41EF82E8F58C285F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8CC145D31514A68B2AFCDE4B3ADCC2B6 /* GGQQSDKManager.modulemap */,
-				8C20A665CA34B63A42710D98D7315A27 /* GGQQSDKManager-dummy.m */,
-				5B741503D114453602858A30079B8A94 /* GGQQSDKManager-Info.plist */,
-				B108579DAD5F616657C51BF524B34367 /* GGQQSDKManager-prefix.pch */,
-				DBFA79A17763FFF81B9CBBF3AA85A571 /* GGQQSDKManager-umbrella.h */,
-				F880AF6458078428CD50CC15C570E2FF /* GGQQSDKManager-xcframeworks.sh */,
-				56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */,
-				260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */,
+				6DEE9A711001E98A6E5641556DCAB85F /* GGQQSDKManager.podspec */,
+				BD220A8FB71217BD836F239F5F0F2587 /* LICENSE */,
+				D4DAA55C0AD22AFB9D8F2C2E20E53178 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGQQSDKManager";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		1298BFEB15C90558C828ABC9189919C6 /* Development Pods */ = {
+		50E271284DF6AF0F4732AB1172E3857A /* GGQQSDKManager */ = {
 			isa = PBXGroup;
 			children = (
-				C96E8F45BE47EAA65777668D3C7B4C7B /* GGQQSDKManager */,
+				5D83D5DF7ED2F21F18DC8314DC636140 /* GGQQSDKManager.h */,
+				702E0A0460614F91D9AD29F0F47F775A /* GGQQSDKManager.m */,
+				CFFA109B072B412BFCC4DFD17B37A06F /* TencentOpenApi_IOS_Bundle.bundle */,
+				617962C10C902A9EC6F230A6E9814B28 /* Frameworks */,
+				4CFF432CE89F434C41EF82E8F58C285F /* Pod */,
+				BB354AA67AAA97E01CD780009A611A82 /* Support Files */,
+				8D6149EC4241E92DFBA82828D12B0D4E /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = GGQQSDKManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E5330477461A25BFD62A32C563B0943 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50E271284DF6AF0F4732AB1172E3857A /* GGQQSDKManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		73EEA2BDDA1CB73ED51B41CB194F7A4A /* Pod */ = {
+		617962C10C902A9EC6F230A6E9814B28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E9BEFE31C4F4FB74A1D18C5A3B874503 /* GGQQSDKManager.podspec */,
-				D5D40C12F3466C8CF47E39A31160F587 /* LICENSE */,
-				785862A4BA6436EACD865076D9F253F8 /* README.md */,
+				1CAFE95E2796BBDA72B549CEE2C2BF3A /* TencentOpenAPI.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
@@ -178,12 +256,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		984F510EB9A04277DB896F6F8ADB068D /* Frameworks */ = {
+		8D6149EC4241E92DFBA82828D12B0D4E /* TencentOpenApi_IOS_Bundle.bundle */ = {
 			isa = PBXGroup;
 			children = (
-				9EB186A81AF82160C6005DC00E2D8492 /* TencentOpenAPI.xcframework */,
+				302D5AD5C7F231F496BAEDDECCF02C46 /* error.png */,
+				AC915D084FAAB57FE9DEEC5B44CFBD1C /* qqicon.png */,
+				5672A6E2F38B3547B7F762BC4E011966 /* success.png */,
+				B0B74D827EBFF3DF64568AE74CE84BED /* WebViewResources */,
 			);
-			name = Frameworks;
+			name = TencentOpenApi_IOS_Bundle.bundle;
+			path = GGQQSDKManager/Assets/TencentOpenApi_IOS_Bundle.bundle;
 			sourceTree = "<group>";
 		};
 		9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */ = {
@@ -195,24 +277,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C96E8F45BE47EAA65777668D3C7B4C7B /* GGQQSDKManager */ = {
+		B0B74D827EBFF3DF64568AE74CE84BED /* WebViewResources */ = {
 			isa = PBXGroup;
 			children = (
-				021BB517F1F7E15DCBE68E224B83E7F8 /* GGQQSDKManager.h */,
-				05B04BD662FE8F90B85FD7DD0BB3EE16 /* GGQQSDKManager.m */,
-				984F510EB9A04277DB896F6F8ADB068D /* Frameworks */,
-				73EEA2BDDA1CB73ED51B41CB194F7A4A /* Pod */,
-				03DA001298C2365E725FF5B02EC322D7 /* Support Files */,
+				E4CE1C681A00FEDCE6BE8CA3F50B47CE /* btn_cancel.png */,
+				39696DD09C2DD15242A9DCF51BFD5F41 /* btn_cancel_hover.png */,
+				100A68F944D6221F12DDD7A65393BB99 /* refresh.png */,
+				02A0E7B6D3A7C5B6F55D548919A2FB2C /* refresh@2x.png */,
+				69C688E0CADFA0F32E456847C8CB44B4 /* share_pengyouquan.png */,
+				15AF0DD0BD2E617EDCE5305E69D71F5F /* share_pengyouquan@2x.png */,
+				E649CF3F25AA6CEFAFF952F9902C4192 /* share_qq.png */,
+				2CABC4F92DB8CFE4B6BF4F103C870772 /* share_qq@2x.png */,
+				937C040AD1AD1B6E9F475C04473E2245 /* share_qzone.png */,
+				CC362C4B37A1F18BEC0268FA4CD5AA23 /* share_qzone@2x.png */,
+				BD31E122E70880B8FC7101E0B3B3FD95 /* share_safari.png */,
+				FD5DD6A531E131E0AEF4EE8FC7A29D11 /* share_safari@2x.png */,
+				10E53A694F33CC96A6D728992858E8FF /* share_weixin.png */,
+				49D4A54010FF4AB07D22D453A25689A8 /* share_weixin@2x.png */,
+				1114DC3D5DC45A5F9ABA5E1856E0875B /* webview_back.png */,
+				B3C2DFC243625A1D6F2CC45844ECF6D8 /* webview_back@2x.png */,
+				1E2815128150A7C4EB120D3532601B31 /* webview_backtogame.png */,
+				A9843B4F6E3BB14248E2D498423EEDED /* webview_backtogame@2x.png */,
+				8D37C0902B14B5762E89418145DE5159 /* webview_backward.png */,
+				E38A4F80E3562A622F2C219EF17FDEC1 /* webview_backward@2x.png */,
+				10B54774101F61DE70F6295CE66B4BD6 /* webview_for.png */,
+				674F743E6A0E6034263C44DFF0E7A342 /* webview_for@2x.png */,
+				050466BFE02B509A46C160452544B16A /* webview_forward.png */,
+				6AE2FAAE8433885BF48EE591BD92A6A5 /* webview_forward@2x.png */,
+				F795A13AC86E1B1272BBFD72A92423D7 /* webview_more.png */,
+				F11DE1BB24317821D32349C00D24EAFE /* webview_more@2x.png */,
+				6E1D77C5600BDEBD12B1AC90DBE9FAE2 /* webview_recommand.png */,
+				5C3FEB1081CDB66257E755C7D3FF5939 /* webview_recommand@2x.png */,
+				D27204C29EB2503E87120B8F564B5499 /* webview_stop.png */,
+				802A60B2FBF130840531847B482F77A7 /* webview_stop@2x.png */,
+				ABC8200542B3FF2CDE8850F9E7C1F136 /* webview_toolbg.png */,
+				DA54E3C2F2A648519D2E6A0FDC15AD4B /* webview_toolbg@2x.png */,
 			);
-			name = GGQQSDKManager;
-			path = ../..;
+			name = WebViewResources;
+			path = WebViewResources;
+			sourceTree = "<group>";
+		};
+		BB354AA67AAA97E01CD780009A611A82 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81908273495010ADFB5A07D06993C7F3 /* GGQQSDKManager.modulemap */,
+				9F2C572232631B86B51CAB3C78EC26F4 /* GGQQSDKManager-dummy.m */,
+				0E53025CCCE3086B01938B86E3FD1B4D /* GGQQSDKManager-Info.plist */,
+				889F4D2A41E6960DEC6A485FBFB060D9 /* GGQQSDKManager-prefix.pch */,
+				4DC0AD0E83EAB1A6967604BF6546B08F /* GGQQSDKManager-umbrella.h */,
+				E6FC6B1CC232BB2BB31AA45855C2522F /* GGQQSDKManager.debug.xcconfig */,
+				1D469C53EC6AF820BFCBEEAED9636535 /* GGQQSDKManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GGQQSDKManager";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1298BFEB15C90558C828ABC9189919C6 /* Development Pods */,
+				5E5330477461A25BFD62A32C563B0943 /* Development Pods */,
 				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
 				D32C48B5C7F5EF2020FB04E3A9038331 /* Products */,
 				9D3AA454209D625E0D6475293DBD3CCC /* Targets Support Files */,
@@ -265,6 +389,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		081C3002BDFC6A902918EB9066687D97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAA2C75553E894B2FE934238C5ABDCD /* GGQQSDKManager.h in Headers */,
+				0ABC02255B05DE6671F27FD603CC043E /* GGQQSDKManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		40011CC9C002F2FE7187EC896AFF5B1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,27 +414,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4E87A35197FC07C870CE3CDAA697A5C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E95CEEE59FFA512F740F2604D44B6083 /* GGQQSDKManager.h in Headers */,
-				3E5F82E088261DC56C02BE2A60A83389 /* GGQQSDKManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B7CD861A1B08ADCFEF811BE3ADDE462 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
+			buildConfigurationList = 2C30EDAFC1AF1048589D578D497406EE /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */;
 			buildPhases = (
-				4E87A35197FC07C870CE3CDAA697A5C8 /* Headers */,
-				889000E0C5D1FDCFD87B83E2CC79A6B5 /* [CP] Copy XCFrameworks */,
-				3E5DC7A1D1DD502275AAF3227E2BAFF4 /* Sources */,
-				AABAADC52F64E8B53B3C30AB10E67BFE /* Frameworks */,
-				4035F351B1A0339A090AA89B0A8A6D0E /* Resources */,
+				081C3002BDFC6A902918EB9066687D97 /* Headers */,
+				C5902D1E6D3E5A4CA56E4D5C06CCF8C0 /* Sources */,
+				B58B2B0ADEC1A5F277179BE4183C2363 /* Frameworks */,
+				C65EA6E51101B319B3AD5B691D2DC5FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -324,7 +447,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				237E82D6D13AD74E3EB22F5704B475A9 /* PBXTargetDependency */,
+				298C4952E17A9A07E69619DA6F53646D /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Example";
 			productName = Pods_GGQQSDKManager_Example;
@@ -343,7 +466,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D8EAECD7F0E0DF62398316C7C3315D00 /* PBXTargetDependency */,
+				535F6CBCDE6426FF11495CC57949C48F /* PBXTargetDependency */,
 			);
 			name = "Pods-GGQQSDKManager_Tests";
 			productName = Pods_GGQQSDKManager_Tests;
@@ -382,17 +505,53 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4035F351B1A0339A090AA89B0A8A6D0E /* Resources */ = {
+		BD6238325182FA6DA4705BEB648A7981 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD6238325182FA6DA4705BEB648A7981 /* Resources */ = {
+		C65EA6E51101B319B3AD5B691D2DC5FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B29843B621D10A3D88AC38BD9C34CAE /* btn_cancel.png in Resources */,
+				33EBD59306408927E02BDFE6B33F9BF8 /* btn_cancel_hover.png in Resources */,
+				FB7134140DD47151041276D40BB6BCC5 /* error.png in Resources */,
+				410209D2E59C854050EC5F7C0E593A24 /* qqicon.png in Resources */,
+				250FC1D686018AD9CDF450F6053DD43D /* refresh.png in Resources */,
+				9808F1275B523949A90844072C9CE8C7 /* refresh@2x.png in Resources */,
+				DFC7F8D0DBAE01BF2D1C5C51146F1AD8 /* share_pengyouquan.png in Resources */,
+				F78649937A7E561BB7EA72C7276AADC4 /* share_pengyouquan@2x.png in Resources */,
+				D3304054431B4001BC41C40BBD14888F /* share_qq.png in Resources */,
+				D7920D75B84F52FC8D33AC94A2D821FA /* share_qq@2x.png in Resources */,
+				E2DF36A5BEE86AB98BC0CC1D0FCB8443 /* share_qzone.png in Resources */,
+				B2D7467CD44CB18F830DA1B42542C70B /* share_qzone@2x.png in Resources */,
+				7E8D91149D4886B5583C2BE984765910 /* share_safari.png in Resources */,
+				96FA60A0C5E80EBD571E5CCFEBDA0A6F /* share_safari@2x.png in Resources */,
+				D53195B79836121AE3A0F3DAD52FF50E /* share_weixin.png in Resources */,
+				6E9F3C0BEB3E26C427906F4106CB0459 /* share_weixin@2x.png in Resources */,
+				59E010C21852D3BD9A74CC429FBFE8C7 /* success.png in Resources */,
+				1EE871620E7AA79118F1C604A1781E9D /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
+				9938819721D0EDBA02811273B94A014E /* webview_back.png in Resources */,
+				E68EF82F04831CAAF18F4964BAB304AA /* webview_back@2x.png in Resources */,
+				BE5E5D6C139D0A36AB942238729E9107 /* webview_backtogame.png in Resources */,
+				F8FFA2D3C9970104BB0AA7D11239FAC3 /* webview_backtogame@2x.png in Resources */,
+				DE7D84E9CF5C35C040708E65EB43DB3F /* webview_backward.png in Resources */,
+				8596DD3BE8DCF7878B54208EDE98737F /* webview_backward@2x.png in Resources */,
+				52CE3A7D231FAED840DF85F5AC32B312 /* webview_for.png in Resources */,
+				FD2777423A22D23A67D2F4A79BE9288C /* webview_for@2x.png in Resources */,
+				5A221EAB08FB45E7E3B8865CE5D9DF57 /* webview_forward.png in Resources */,
+				7D8A7C21F46C65F9F71F4F9AF1938C36 /* webview_forward@2x.png in Resources */,
+				CCD1B6D828528EA578BF3947D517EFE7 /* webview_more.png in Resources */,
+				2F72230364A6F1B426D9B0633B188C5A /* webview_more@2x.png in Resources */,
+				712067E1BA77827D61E9EE1C2E0781CC /* webview_recommand.png in Resources */,
+				24CA79FF6C8C8DE68E1B076D39E28FA7 /* webview_recommand@2x.png in Resources */,
+				6F8D6C8C11DB934B4B3A1B7CAA516BB9 /* webview_stop.png in Resources */,
+				818A7ED3A2A6A0F1DCDC63BE1A9CA886 /* webview_stop@2x.png in Resources */,
+				BD2A5D0DD29B8784AFE964ACF995C2F0 /* webview_toolbg.png in Resources */,
+				B929A6750EF887E5E9C6691803FE51D6 /* webview_toolbg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,42 +564,12 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		889000E0C5D1FDCFD87B83E2CC79A6B5 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/GGQQSDKManager/GGQQSDKManager-xcframeworks.sh",
-				"${PODS_ROOT}/../../GGQQSDKManager/Classes/TencentOpenAPI.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GGQQSDKManager/TencentOpenAPI.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/GGQQSDKManager/GGQQSDKManager-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3962EA0813136B74F09A4571CC8A8734 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BE45CB92E418C3F3D4AD255D57FC1170 /* Pods-GGQQSDKManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E5DC7A1D1DD502275AAF3227E2BAFF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				237F40C19AC0F967438311B2747C8980 /* GGQQSDKManager.m in Sources */,
-				A982077FFFA15DBC0FCD26EA2FCFE542 /* GGQQSDKManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,27 +581,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5902D1E6D3E5A4CA56E4D5C06CCF8C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1007E3FB792120E75837399C819AA1EC /* GGQQSDKManager.m in Sources */,
+				FF2BD7D7C1312074131A70EB39BE49BC /* GGQQSDKManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		237E82D6D13AD74E3EB22F5704B475A9 /* PBXTargetDependency */ = {
+		298C4952E17A9A07E69619DA6F53646D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGQQSDKManager;
 			target = 1F7C2C4AEEEF01239E692A21780BD14D /* GGQQSDKManager */;
-			targetProxy = 1A3BD90BACBB0FB19482712C32E0FC97 /* PBXContainerItemProxy */;
+			targetProxy = 31756CD4CF0F1029534A20808FFF025A /* PBXContainerItemProxy */;
 		};
-		D8EAECD7F0E0DF62398316C7C3315D00 /* PBXTargetDependency */ = {
+		535F6CBCDE6426FF11495CC57949C48F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GGQQSDKManager_Example";
 			target = 727605D77659C3F5239315974E983937 /* Pods-GGQQSDKManager_Example */;
-			targetProxy = 99CD887B785BAE1ED5CA84E460F23BD5 /* PBXContainerItemProxy */;
+			targetProxy = F97C515F006E93267E656C5C6A6ED53E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13FFDBCBB61578416E6709D7ACC8763C /* Debug */ = {
+		2F167C20E8FE5C019597385D074F0F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56F62B296334929F44B54AB4B20CACBE /* GGQQSDKManager.debug.xcconfig */;
+			baseConfigurationReference = E6FC6B1CC232BB2BB31AA45855C2522F /* GGQQSDKManager.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -541,43 +679,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5882844FF23810834DC3430379198637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 260A6BD76358E780A3F0737D116A17F1 /* GGQQSDKManager.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
-				PRODUCT_MODULE_NAME = GGQQSDKManager;
-				PRODUCT_NAME = GGQQSDKManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		7FD801E81B561C408660B190ABBE7961 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -680,6 +781,43 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		8FBCC6F2E1DB6E225B612A8B96F925D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D469C53EC6AF820BFCBEEAED9636535 /* GGQQSDKManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/GGQQSDKManager/GGQQSDKManager-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGQQSDKManager/GGQQSDKManager.modulemap";
+				PRODUCT_MODULE_NAME = GGQQSDKManager;
+				PRODUCT_NAME = GGQQSDKManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -820,11 +958,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B7CD861A1B08ADCFEF811BE3ADDE462 /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
+		2C30EDAFC1AF1048589D578D497406EE /* Build configuration list for PBXNativeTarget "GGQQSDKManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13FFDBCBB61578416E6709D7ACC8763C /* Debug */,
-				5882844FF23810834DC3430379198637 /* Release */,
+				2F167C20E8FE5C019597385D074F0F39 /* Debug */,
+				8FBCC6F2E1DB6E225B612A8B96F925D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

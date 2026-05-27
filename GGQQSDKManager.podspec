@@ -9,20 +9,18 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/github6022244/GGQQSDKManager.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Developer' => 'developer@example.com' }
+  s.author           = { 'github6022244' => '1563084860@qq.com' }
   s.source           = { :git => 'https://github.com/github6022244/GGQQSDKManager.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'GGQQSDKManager/Classes/*.{h,m}'
   
-  s.exclude_files = 'GGQQSDKManager/Classes/TencentOpenAPI.xcframework/**/*'
-  
   s.public_header_files = 'GGQQSDKManager/Classes/*.h'
   
-  s.resources = ['GGQQSDKManager/Assets/**/*.png']
+  s.resources = ['GGQQSDKManager/Assets/**/*.png', 'GGQQSDKManager/Assets/**/*.bundle']
 
-  s.vendored_frameworks = 'GGQQSDKManager/Classes/TencentOpenAPI.xcframework'
+  s.vendored_frameworks = 'GGQQSDKManager/Classes/TencentOpenAPI.framework'
 
   s.frameworks = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony', 'Foundation', 'UIKit', 'WebKit'
   
@@ -30,13 +28,11 @@ Pod::Spec.new do |s|
 
   s.xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC -all_load',
-    'ENABLE_BITCODE' => 'NO'
   }
 
   s.pod_target_xcconfig = {
-    'CODE_SIGNING_ALLOWED' => 'NO',
-    'CODE_SIGNING_REQUIRED' => 'NO',
-    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'  # 移到这里
+    'ENABLE_BITCODE' => 'NO',
+    'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
   }
 
   s.requires_arc = true
