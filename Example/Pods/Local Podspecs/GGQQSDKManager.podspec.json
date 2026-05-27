@@ -44,6 +44,10 @@
     "OTHER_LDFLAGS": "-ObjC -all_load",
     "ENABLE_BITCODE": "NO"
   },
+  "user_target_xcconfig": {
+    "CODE_SIGNING_ALLOWED": "NO",
+    "CODE_SIGNING_REQUIRED": "NO"
+  },
   "pod_target_xcconfig": {
     "CODE_SIGNING_ALLOWED": "NO",
     "CODE_SIGNING_REQUIRED": "NO",
